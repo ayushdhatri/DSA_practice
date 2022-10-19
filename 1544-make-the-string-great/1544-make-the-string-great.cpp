@@ -1,6 +1,10 @@
 class Solution {
 public:
     string makeGood(string s) {
+        if(s.size()==0||s.size()==1)
+        {
+            return s;
+        }
         stack<char>st;
         for(int i=0;i<s.size();i++)
         {
