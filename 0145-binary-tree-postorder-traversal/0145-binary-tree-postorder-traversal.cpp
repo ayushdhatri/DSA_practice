@@ -24,6 +24,14 @@ public:
     
     vector<int> postorderTraversal(TreeNode* root) {
         vector<int>ans;
+        if(root==NULL)
+            return ans;
+        if(root->left==NULL&&root->right==NULL)
+        {
+            ans.push_back(root->val);
+            return ans;
+        }
+        
         postorder(root, ans);
         return ans;
         
