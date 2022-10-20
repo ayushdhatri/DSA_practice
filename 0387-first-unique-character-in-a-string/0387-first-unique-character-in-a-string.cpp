@@ -2,19 +2,16 @@ class Solution {
 public:
     int approach2(string s)
     {
-        unordered_map<char, int>freq;
+        vector<int>freq(26, 0);
         for(int i=0;i<s.size();i++)
         {
-            if(freq.find(s[i])==freq.end())// element is not present
-                freq.insert({s[i],1});
-            else
-                freq[s[i]]++;
+            freq[s[i]-'a']++;
         }
-        for(int i=0;i<s.size();i++)
-        {
-            if(freq[s[i]]==1)
-                return i;
-        }
+       for(int i=0;i<s.size();i++)
+       {
+           if(freq[s[i]-'a']==1)
+               return i;
+       }
         return -1;
         
     }
