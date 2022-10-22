@@ -13,8 +13,23 @@ public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int row  = triangle.size();
         int col = triangle[row-1].size();
-        vector<vector<int>>dp(row,vector<int>(col, -1));
-        return moves(0, 0, triangle, row-1, col-1, dp);
+        vector<vector<int>>dp(row,vector<int>(col, 0));
+        for(int i=0;i<col;i++)dp[row-1][i]=triangle[row-1][i];
+        for(int i=row-2;i>=0;i--)
+        {
+            for(int j=0;j<triangle[i].size();j++)
+            {
+                int down = triangle[i][j]+dp[i+1][j];
+                int dig = triangle[i][j]+dp[i+1][j+1];
+                dp[i][j]=min(down, dig);
+            }
+        }
+        return dp[0][0];
+        
+        
+        
+        
+        // return moves(0, 0, triangle, row-1, col-1, dp);
         
         
     }
