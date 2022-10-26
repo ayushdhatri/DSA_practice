@@ -33,8 +33,7 @@ public:
                     arr[s[i]-'a']--;
                     i++;
                 }
-                if(atleastone(arr)==true)
-                    count++;
+                
                 j++;
             }
         }
