@@ -22,10 +22,31 @@ public:
     }
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
-        vector<vector<int>>dp(n, vector<int>(amount+1, -1));
-        int temp =mincoins(n-1, coins, amount, dp);
-        if(temp>=1e5)
+        vector<vector<int>>dp(n, vector<int>(amount+1, 0));
+        // for(int i=0;i<n;i++)
+        //     dp[0][i]=0;
+        for(int i=0;i<=amount;i++)
+        {
+            if(i%coins[0]==0)
+                dp[0][i]=i/coins[0];
+            else
+                dp[0][i]=1e5;
+            
+        }
+        for(int index = 1;index<n;index++)
+        {
+            for(int sikka = 0;sikka<=amount;sikka++)
+            {
+                int pick = 1e5;
+                if(sikka>=coins[index])
+                    pick = 1 + dp[index][sikka-coins[index]];
+              //  int notpick = 1e5;
+                int notpick = dp[index-1][sikka];
+                dp[index][sikka]=min(pick, notpick);
+            }
+        }
+        if(dp[n-1][amount]>=1e5)
             return -1;
-        return temp;
+        return dp[n-1][amount];
     }
 };
