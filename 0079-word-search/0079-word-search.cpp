@@ -20,6 +20,8 @@ public:
 
     }
     bool exist(vector<vector<char>>& board, string word) {
+        if(word=="")
+            return false;
         bool ans = false;
         int row= board.size();
         int col = board[0].size();
