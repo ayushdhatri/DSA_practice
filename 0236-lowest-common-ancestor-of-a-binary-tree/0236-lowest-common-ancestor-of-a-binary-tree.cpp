@@ -9,29 +9,25 @@
  */
 class Solution {
 public:
-    TreeNode* traverse(TreeNode* root, int p, int q)
+    TreeNode* path(TreeNode* root, int a, int b)
     {
         if(root==NULL)
             return NULL;
-        if(root->val==p||root->val==q)
+        if(root->val==a||root->val==b)
             return root;
-        TreeNode* left = traverse(root->left, p, q);
-        TreeNode* right = traverse(root->right, p, q);
+        TreeNode* left = path(root->left, a, b);
+        TreeNode* right = path(root->right, a, b);
         if(left==NULL)
             return right;
         else if(right==NULL)
             return left;
         else
-        return root;
+            return root;
     }
-    
-   TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-       return traverse(root, p->val, q->val);
-      
-        
-        
-        
-        
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        int a = p->val;
+        int b = q->val;
+        return path(root, a, b);
         
     }
 };
