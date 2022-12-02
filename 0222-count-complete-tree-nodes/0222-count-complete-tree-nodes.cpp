@@ -17,14 +17,13 @@ public:
         {
             count++;
             preorder(root->left, count);
-            preorder(root->right, count);
+            preorder(root->right,count);
         }
     }
     int countNodes(TreeNode* root) {
-            int count=0;
+        int count=0;
         preorder(root, count);
         return count;
-        
         
     }
 };
