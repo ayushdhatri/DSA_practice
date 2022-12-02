@@ -11,19 +11,42 @@
  */
 class Solution {
 public:
-    void preorder(TreeNode* root, int &count)
+    int leftheight(TreeNode* root)
     {
-        if(root!=NULL)
+        int height = 0;
+        while(root!=NULL)
         {
-            count++;
-            preorder(root->left, count);
-            preorder(root->right,count);
+            height++;
+            root = root->left;
         }
+        return height;
+    }
+    int rightheight(TreeNode* root)
+    {
+        int height = 0;
+        while(root!=NULL)
+        {
+            height++;
+            root = root->right;
+        }
+        return height;
+
+    }
+    int heights(TreeNode* root)
+    {
+        if(root==NULL)
+            return 0;
+        int lh = leftheight(root);
+        int rh = rightheight(root);
+        if(lh==rh)
+            return pow(2,lh)-1;
+        return 1+ heights(root->left)+heights(root->right);
+
     }
     int countNodes(TreeNode* root) {
-        int count=0;
-        preorder(root, count);
-        return count;
+        return heights(root);
+        
+       
         
     }
 };
