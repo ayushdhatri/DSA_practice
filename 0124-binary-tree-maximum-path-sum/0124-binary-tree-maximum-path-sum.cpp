@@ -11,24 +11,28 @@
  */
 class Solution {
 public:
-    int findheight(TreeNode* root, int &maxsum){
+    int postorder(TreeNode* root, int &maxans)
+    {
         if(root==NULL)
             return 0;
-        int leftsum = findheight(root->left, maxsum);
+        int leftsum = postorder(root->left, maxans);
+        int rightsum = postorder(root->right, maxans);
         if(leftsum<0)
-            leftsum=0;
-        int rightsum = findheight(root->right, maxsum);
+                leftsum = 0;
         if(rightsum<0)
-            rightsum = 0;
-        int currsum = root->val+leftsum+rightsum;
-        maxsum = max(maxsum,currsum);
-        return max(leftsum, rightsum)+root->val;
-        
+                rightsum = 0;
+        int currsum = leftsum+rightsum+root->val;
+        maxans  = max(maxans, max(root->val, currsum));
+        return root->val+max(leftsum, rightsum);
     }
     int maxPathSum(TreeNode* root) {
-        int maxsum = INT_MIN;
-        maxsum = max(maxsum,findheight(root, maxsum));
-        return maxsum;
+        int maxans = INT_MIN;
+        int x  = postorder(root, maxans);
+        maxans = max(x, maxans);
+        return maxans;
+        
+        
+        
         
     }
 };
