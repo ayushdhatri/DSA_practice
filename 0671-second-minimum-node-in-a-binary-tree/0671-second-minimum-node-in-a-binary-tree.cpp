@@ -25,21 +25,25 @@ public:
         inorder(root->right, nodes);
     }
     int findSecondMinimumValue(TreeNode* root) {
-        vector<int>nodes;
-        inorder(root, nodes);
-        sort(nodes.begin(), nodes.end());
-        int minnvalue = nodes[0];
-        int i=1;
-        int n = nodes.size();
-        while(i<n&&nodes[i]<=minnvalue)
+        vector<int>arr;
+        inorder(root,arr);
+        int n = arr.size();
+        long long int first, second;
+        first = second = 1e14;
+        for (int i = 0; i<n; i++)
         {
-            i++;
+            if (arr[i] < first)
+            {
+                second = first;
+                first = arr[i];
+            }
+            else if (arr[i] < second && arr[i] != first)
+                second = arr[i];
         }
-        if(i==n)
+        if(second == 1e14)
             return -1;
-        return nodes[i];
-        
-        
+        return second;
+
         
         
         
