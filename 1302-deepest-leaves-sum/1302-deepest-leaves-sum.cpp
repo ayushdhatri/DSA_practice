@@ -11,7 +11,8 @@
  */
 class Solution {
 public:
-    int deepestLeavesSum(TreeNode* root) {
+    int way1(TreeNode* root)
+    {
         int sum=0;
         queue<TreeNode*>q;
         q.push(root);
@@ -33,5 +34,38 @@ public:
         }
         return sum;
         
+    }
+    int maxdepth(TreeNode* root)
+    {
+        if(root==NULL)
+            return 0;
+        int lh = maxdepth(root->left);
+        int rh = maxdepth(root->right);
+        return 1+max(lh, rh);
+    }
+    void inorder(TreeNode* root, int &sum, int currdepth, int depth)
+    {
+        if(root==NULL)
+            return;
+        if(currdepth==depth)
+            sum+=root->val;
+        inorder(root->left, sum, currdepth+1, depth);
+        inorder(root->right, sum, currdepth+1, depth);
+    }   
+        
+    int way2(TreeNode* root)
+    {
+        int depth=0;
+        depth = maxdepth(root);
+        int sum=0;
+        inorder(root, sum,1,depth);
+        return sum;
+        
+        
+
+    }
+    int deepestLeavesSum(TreeNode* root) {
+        return way2(root);
+       
     }
 };
