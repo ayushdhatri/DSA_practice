@@ -11,36 +11,25 @@
  */
 class Solution {
 public:
-    int nodesum(TreeNode* root, int &nodes)
+    pair<int, int> countnodes(TreeNode* root, int &suchnodes)
     {
         if(root==NULL)
-            return 0;
-        if(root!=NULL)
-            nodes++;
-        int leftsum = nodesum(root->left, nodes);
-        int rightsum = nodesum(root->right, nodes);
-        return leftsum+rightsum+root->val;
-        
-    }
-    void countnodes(TreeNode* root, int &suchnodes)
-    {
-        if(root==NULL)
-            return;
-        int totalnode=0;
-        int dessum = nodesum(root, totalnode);
-        int avg = round(dessum/totalnode);
-        if(avg==root->val)
+            return {0,0};
+        auto left = countnodes(root->left, suchnodes);
+        int leftsum = left.first;
+        int leftcount = left.second;
+        auto right = countnodes(root->right, suchnodes);
+        int rightsum = right.first;
+        int rightcount = right.second;
+        int sum = leftsum+rightsum+root->val;
+        int cnt = leftcount+rightcount+1;
+        if(root->val==(round(sum/cnt)))
             suchnodes++;
-        countnodes(root->left, suchnodes);
-        countnodes(root->right,suchnodes);
+        return {sum, cnt};
     }
     int averageOfSubtree(TreeNode* root) {
         int suchnodes=0;
         countnodes(root,suchnodes);
         return suchnodes;
-        
-        
-        
-        
     }
 };
