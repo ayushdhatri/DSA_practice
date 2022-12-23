@@ -11,12 +11,13 @@
  */
 class FindElements {
 public:
-    TreeNode* copyroot;
+    unordered_set<int>elements;
     void inorder(TreeNode* root)
     {
         if(root==NULL)
             return;
         int currvalue = root->val;
+        elements.insert(currvalue);
         if(root->left!=NULL)
             root->left->val = 2*currvalue+1;
         if(root->right!=NULL)
@@ -27,22 +28,15 @@ public:
     FindElements(TreeNode* root) {
         root->val=0;
         inorder(root);
-        copyroot = root;
+        
         
         
     }
-    bool dhundo(TreeNode* copyroot,int target)
-    {
-        if(copyroot==NULL)
-            return false;
-        if(copyroot->val==target)
-            return true;
-        bool leftside = dhundo(copyroot->left, target);
-        bool rightside = dhundo(copyroot->right, target);
-        return leftside||rightside;
-    }
+    
     bool find(int target) {
-        return dhundo(copyroot, target);
+        if(elements.find(target)==elements.end())
+            return false;
+        return true;
     }
 };
 
