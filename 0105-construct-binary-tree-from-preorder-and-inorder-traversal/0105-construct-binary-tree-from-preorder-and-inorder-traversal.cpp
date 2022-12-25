@@ -11,22 +11,23 @@
  */
 class Solution {
 public:
+    
     TreeNode* construct(vector<int>&preorder, vector<int>&inorder, int presi, int preei, int insi, int inei)
     {
         if(presi>preei||insi>inei)
             return NULL;
         int element = preorder[presi];
         TreeNode* rootnode = new TreeNode(element);
-        int index=0;
+        int index = 0;
         for(index;index<inorder.size();index++)
         {
             if(inorder[index]==element)
                 break;
         }
-        int toteleinleftsubtree = index-insi;//correct
-        int lspresi = presi+1;//correct
-        int lspreei = presi+toteleinleftsubtree;//correct
-        int lsinsi = insi;//
+        int toteleinleftsubtree = index-insi;
+        int lspresi = presi+1;
+        int lspreei = presi+toteleinleftsubtree;
+        int lsinsi = insi;
         int lsinei = index-1;
         int rspresi = lspreei+1;
         int rspreei = preei;
@@ -37,8 +38,9 @@ public:
         rootnode->left = leftsubtree;
         rootnode->right = rightsubtree;
         return rootnode;
+            
+        
     }
-    
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         int n = preorder.size();
         int m = inorder.size();
@@ -46,7 +48,8 @@ public:
         int preei = n-1;
         int insi = 0;
         int inei = m-1;
-        return construct(preorder, inorder,presi, preei, insi, inei);
+        return construct(preorder, inorder, presi, preei, insi, inei);
+        
         
         
     }
