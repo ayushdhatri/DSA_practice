@@ -5,7 +5,7 @@ public:
         visited[vertex]=true;
         for(int i=0;i<isConnected[vertex].size();i++)
         {
-            if(visited[i]==false&&isConnected[vertex][i]==1&&i!=vertex) {
+            if(visited[i]==false&&isConnected[vertex][i]==1) {
                 dfs(i,visited,isConnected);
             }
         }
