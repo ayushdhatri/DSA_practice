@@ -6,53 +6,45 @@ using namespace std;
 class Solution {
   public:
     // Function to detect cycle in an undirected graph.
-    bool bfs(int vertex, vector<bool>&visited, vector<int>adj[])
+    bool bfs(int vertex, vector<bool>&visited, vector<int> adj[])
     {
-        queue<pair<int,int>>q;
-        q.push({vertex, -1});
         visited[vertex]=true;
+        queue<pair<int, int>>q;
+        q.push({vertex,-1});
         while(q.size()!=0)
         {
-            int len = q.size();
-            for(int i=0;i<len;i++)
+            pair<int,int>curr = q.front();
+            q.pop();
+            int currnode = curr.first;
+            int currpar = curr.second;
+            for(auto x: adj[currnode])
             {
-                pair<int, int>curr = q.front();
-                q.pop();
-                int currver = curr.first;
-                int currpar = curr.second;
-                for(auto x: adj[currver])
+                if(visited[x]==true)
                 {
-                    if(visited[x]==true)
-                    {
-                        if(x!=currpar)
-                            return true;
-                    }
-                    else
-                    {
-                        visited[x]=true;
-                        q.push({x, currver});
-                    }
+                    if(currpar!=x)
+                    return true;
                 }
-               
+                else
+                {
+                    visited[x]=true;
+                    q.push({x, currnode});
+                }
             }
         }
         return false;
-        
     }
     bool isCycle(int V, vector<int> adj[]) {
         // Code here
-         vector<bool>visited(V, false);
-         int ans = false;
-         for(int i=0;i<V;i++)
-         {
-             if(visited[i]==false){
-                 int temp = bfs(i,visited, adj);
-                 if(temp==true)
-                 return true;
-             }
-         }
-         return false;
+        vector<bool>visited(V,false);
+        for(int i=0;i<V;i++)
+        {
+            if(visited[i]==false) {
+            bool temp = bfs(i, visited, adj);
+            if(temp)return true;
+            }
+        }
         
+        return false;
     }
 };
 
