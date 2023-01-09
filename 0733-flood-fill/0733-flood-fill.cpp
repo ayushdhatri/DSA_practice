@@ -1,41 +1,32 @@
 class Solution {
 public:
-    void bfs(int row, int col, int color, int ic, vector<vector<int>>&img, vector<vector<bool>>&visited)
-    {
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+        int m = image.size();
+        int n = image[0].size();
+        vector<vector<bool>>visited(m, vector<bool>(n, false));
         queue<pair<int, int>>q;
-        q.push({row, col});
+        q.push({sr, sc});
+        int ic = image[sr][sc];
+        image[sr][sc]=color;
+        int drow[]={-1,0,+1,0};
+        int dcol[]={0,+1,0,-1};
         while(q.size()!=0)
         {
-            int len = q.size();
-            for(int i=0;i<len;i++)
+            int prow = q.front().first;
+            int pcol = q.front().second;
+            q.pop();
+            for(int d = 0;d<4;d++)
             {
-                pair<int, int>curr  = q.front();
-                q.pop();
-                if(visited[curr.first][curr.second]==false&&img[curr.first][curr.second]==ic)
+                int nrow = prow+drow[d];
+                int ncol = pcol+dcol[d];
+                if(nrow>=0&&nrow<image.size()&&ncol>=0&&ncol<image[0].size()&&visited[nrow][ncol]==false&&image[nrow][ncol]==ic)
                 {
-                    visited[curr.first][curr.second]=true;
-                    int prow = curr.first;
-                    int pcol = curr.second;
-                    img[prow][pcol]=color;
-                    if(pcol-1>=0&&visited[prow][pcol-1]==false&&img[prow][pcol-1]==ic)
-                        q.push({prow, pcol-1});
-                    if(pcol+1<img[0].size()&&visited[prow][pcol+1]==false&&img[prow][pcol+1]==ic)
-                        q.push({prow, pcol+1});
-                    if(prow-1>=0&&visited[prow-1][pcol]==false&&img[prow-1][pcol]==ic)
-                        q.push({prow-1, pcol});
-                    if(prow+1<img.size()&&visited[prow+1][pcol]==false&&img[prow+1][pcol]==ic)
-                        q.push({prow+1, pcol});
-                 }
-            }
+                    visited[nrow][ncol]=true;
+                    image[nrow][ncol]=color;
+                    q.push({nrow, ncol});
+                }
+            }    
         }
-        
-    }
-    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int ic = image[sr][sc];
-        int n = image.size();
-        int m = image[0].size();    
-        vector<vector<bool>>visited(n, vector<bool>(m, false));
-        bfs(sr, sc, color, ic, image, visited);
         return image;
         
     }
