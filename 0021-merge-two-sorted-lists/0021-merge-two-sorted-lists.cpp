@@ -13,29 +13,48 @@ public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         if(list1==NULL)
             return list2;
-        if(list2 == NULL)
+        if(list2== NULL)
             return list1;
-        ListNode* temp = list1;
-        while(temp->next!=NULL)
+        int a = list1->val;
+        int b = list2->val;
+        ListNode* head=NULL;
+        ListNode* tail = NULL;
+        if(a<=b)
         {
-            temp = temp->next;
+            head = tail = list1;
+            list1 = list1->next;
         }
-        temp->next = list2;
-        vector<int>ml;
-        temp = list1;
-        while(temp!=NULL)
+        else
         {
-            ml.push_back(temp->val);
-            temp = temp->next;
+            head = tail = list2;
+            list2 = list2->next;
         }
-        sort(ml.begin(), ml.end());
-        temp = list1;
-        for(int i = 0;i<ml.size();i++)
+        ListNode* temp1 = list1;
+        ListNode* temp2 = list2;
+        while(temp1!=NULL&&temp2!=NULL)
         {
-            temp->val = ml[i];
-            temp = temp->next;
+            int a = temp1->val;
+            int b = temp2->val;
+            if(a<=b)
+            {
+                tail->next = temp1;
+                tail = temp1;
+                temp1 = temp1->next;
+                
+            }
+            else
+            {
+                tail->next = temp2;
+                tail = temp2;
+                temp2 = temp2->next;
+                
+            }
         }
-        return list1;
+        if(temp1==NULL)
+            tail->next = temp2;
+        else 
+            tail->next = temp1;
+        return head;
         
     }
 };
