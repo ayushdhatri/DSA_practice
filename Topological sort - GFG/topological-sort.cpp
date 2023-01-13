@@ -7,44 +7,43 @@ class Solution
 {
 	public:
 	//Function to return list containing vertices in Topological order. 
-	void dfs(int vertex, vector<bool>&visited, vector<int> adj[], stack<int>&st)
-	{
-	    visited[vertex]=true;
-	    
-	    for(auto x: adj[vertex])
-	    {
-	        if(visited[x]==false)
-	        {
-	            dfs(x, visited, adj, st);
-	        }
-	    }
-	    st.push(vertex);
-	    
-	}
 	vector<int> topoSort(int V, vector<int> adj[]) 
 	{
 	    // code here
-	    vector<int>ans;
-	    vector<bool>visited(V, false);
-	    stack<int>st;
-	    for(int i=0;i<V;i++)
+	    vector<int>indegree(V, 0);
+	   
+	    for(int i =0;i<V;i++)
 	    {
-	        if(visited[i]==false)
+	        for(auto x: adj[i])
 	        {
-	            dfs(i, visited, adj,st);
+	            indegree[x]++;
 	        }
 	    }
-	    while(st.size()!=0)
+	    queue<int>q;
+	    for(int i = 0;i<V;i++)
 	    {
-	        ans.push_back(st.top());
-	        st.pop();
+	        if(indegree[i]==0)
+	        q.push(i);
 	    }
+	    vector<int>topo;
+	    while(q.size()!=0)
+	    {
+	        int currver = q.front();
+	        topo.push_back(currver);
+	        q.pop();
+	        for(auto x: adj[currver])
+	        {
+	            indegree[x]--;
+	            if(indegree[x]==0)
+	            q.push(x);
+	            
+	        }
+	    }
+	    return topo;
 	    
 	    
 	    
 	    
-	    
-	    return ans;
 	}
 };
 
