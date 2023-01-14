@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int>ans;
+        int ans=0;
         vector<int>indegree(numCourses, 0);
         vector<int> adj[numCourses];
         int vertex = prerequisites.size();
@@ -28,7 +28,7 @@ public:
         {
             int currvertex = q.front();
             q.pop();
-            ans.push_back(currvertex);
+            ans++;
             for(auto x: adj[currvertex])
             {
                 indegree[x]--;
@@ -37,7 +37,7 @@ public:
             }
 
         }
-        if(ans.size()==numCourses)return true;
+        if(ans==numCourses)return true;
         return false;
         
     }
