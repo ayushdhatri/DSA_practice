@@ -8,7 +8,7 @@ using namespace std;
 // User function Template for C++
 class Solution {
   public:
-  void toposort(int vertex, vector<bool>&visited, stack<int>&st, vector<pair<int, int>>adj[])
+  void toposort(int vertex, vector<bool>&visited, stack<int>&st, vector<pair<int,int>>adj[])
   {
       visited[vertex]=true;
       for(auto x: adj[vertex])
@@ -16,7 +16,7 @@ class Solution {
           int node = x.first;
           if(visited[node]==false)
           {
-              toposort(node, visited,st, adj);
+              toposort(node, visited, st, adj);
           }
       }
       st.push(vertex);
@@ -24,7 +24,7 @@ class Solution {
      vector<int> shortestPath(int N,int M, vector<vector<int>>& edges){
         // code here
         vector<pair<int, int>>adj[N];
-        for(int i=0;i<M;i++)
+        for(int i= 0;i<M;i++)
         {
             int u = edges[i][0];
             int v = edges[i][1];
@@ -47,8 +47,6 @@ class Solution {
         {
             st.pop();
         }
-        
-        
         while(st.size()!=0)
         {
             int node = st.top();
@@ -56,14 +54,14 @@ class Solution {
             for(auto x: adj[node])
             {
                 int adjnode = x.first;
-                int weight = x.second;
-                if(dist[node]+weight<dist[adjnode])
+                int wt = x.second;
+                if(dist[node]+wt<dist[adjnode])
                 {
-                    dist[adjnode]=dist[node]+weight;
+                    dist[adjnode]=dist[node]+wt;
                 }
             }
         }
-        for(int i=0;i<N;i++)
+        for(int i =0;i<N;i++)
         {
             if(dist[i]==INT_MAX)
             {
