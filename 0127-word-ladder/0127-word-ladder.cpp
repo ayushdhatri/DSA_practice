@@ -1,36 +1,41 @@
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        queue<pair<string,int>> q;
+        unordered_set<string>s;
+        for(auto x: wordList)
+        {
+            s.insert(x);
+        }
+        queue<pair<string, int>>q;
         q.push({beginWord,1});
-        unordered_set<string> check(wordList.begin(),wordList.end());
-        check.erase(beginWord);
-
-        while(!q.empty()){
-            string word=q.front().first;
-            int level=q.front().second;  //level coz bfs approach
+        int ans = 0;
+        while(q.size()!=0)
+        {
+            string temp = q.front().first;
+            int seq = q.front().second;
             q.pop();
-
-            if(word==endWord) return level;
-
-            for(int i=0;i<word.size();i++){  //check for each character
-            char og=word[i];
-                for(char c='a'; c<='z';c++){ //check whole alphabet for all possibilities
-                    word[i]=c;
-                    if(check.find(word)!=check.end()){  //if trial word exists in given wordList
-                    check.erase(word);
-                    q.push({word,level+1});
-
+            if(temp==endWord)
+            {
+                ans = seq;
+                break;
+            }
+            
+            for(int i=0;i<temp.size();i++)
+            {
+                char word = temp[i];
+                for(char ch='a';ch<='z';ch++)
+                {
+                    temp[i]=ch;
+                    if(s.find(temp)!=s.end())
+                    {
+                        q.push({temp, seq+1});
+                        s.erase(temp);
                     }
                 }
-                word[i]=og; // so we can now check for next character in original word
-
+                temp[i]=word;
             }
-
-
         }
-
-        return 0;  //means no sequence
-
+        return ans;
+        
     }
 };
