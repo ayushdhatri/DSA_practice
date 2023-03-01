@@ -1,55 +1,43 @@
 class Solution {
 public:
-    int longestConsecutive(vector<int>& arr) {
-         int n = arr.size(); // extract the size of the array
-        
-        unordered_map<int, int> mp; // declaring unordered map
-        
-        // Step 1)  we are giving 1 to each of the elemnt
-        // (Assuming that it may be the starting point of consecutive sequence)
-        for(int i = 0; i < n; i++)
+    int longestConsecutive(vector<int>& nums) {
+        if(nums.size()==0)
+            return 0;
+        int n = nums.size();
+        unordered_map<int, bool>freq;
+        for(int i=0;i<n;i++)
         {
-            mp[arr[i]] = 1;
+            freq[nums[i]]=true;
         }
-        
-        // step 2) validating our assumption taken in step 1
-        for(int i = 0; i < n; i++)
+        for(auto x: freq)
         {
-            if(mp.find(arr[i] - 1) != mp.end()) // if(arr[i] - 1) is present in map
+            int prev = x.first-1;
+            if(freq.find(prev)!=freq.end())
             {
-                // then arr[i] can never be the starting point some of consecutive sequence
-                // so give value zero for that arr[i]
-                mp[arr[i]] = 0;
+                freq[x.first]=false;
             }
         }
-        
-        // step 3) Now the elements for which value 1 is left
-        // for them we definately know they are the starting point of 
-        // some consecutive sequence, using that length trick we find the maxlen
-        
-        int mxLen = 0; // this variable holds my answer
-        
-        for(int i = 0; i < n; i++) // travel in the array
+       
+        int ans = 0;
+        for(auto x: freq)
         {
-            // if value is 1, then they are starting point some of consecutive sequence
-            if(mp[arr[i]] == 1) 
+            
+            if(x.second==true)
             {
-                // if it is the starting point, then definately length is going to be 
-                // atleast 1
-                int length = 1; 
-                
-               // we dicuss it above
-                while(mp.find(arr[i] + length) != mp.end())
+                int count=1;
+                int element = x.first;
+                while(freq.find(element+1)!=freq.end())
                 {
-                    length++;
+                    element++;
+                    count++;
                 }
+                ans= max(ans, count);
                 
-                mxLen = max(mxLen, length); // update mxLen
             }
         }
         
-        return mxLen; // Finally return mxLen
-    
+        
+        return ans;
        
     }
 };
