@@ -1,29 +1,56 @@
 class MedianFinder {
-private:
-    priority_queue<int> firstQ; // max_heap for the first half
-    priority_queue<int, std::vector<int>, std::greater<int> > secQ; // min_heap for the second half
 public:
-    // Adds a number into the data structure.
-    void addNum(int num) {
-        if(firstQ.empty() || (firstQ.top()>num)) firstQ.push(num); // if it belongs to the smaller half
-        else secQ.push(num); 
-        
-        // rebalance the two halfs to make sure the length difference is no larger than 1
-        if(firstQ.size() > (secQ.size()+1))
-        {
-            secQ.push(firstQ.top());
-            firstQ.pop();
-        }
-        else if(firstQ.size()+1<secQ.size())
-        {
-            firstQ.push(secQ.top());
-            secQ.pop();
-        }
-    }
+   
+        priority_queue<int>left;
+        priority_queue<int, vector<int>, greater<int>>right;
 
-    // Returns the median of current data stream
+    
+    void addNum(int num) {
+        if(left.size()==0&&right.size()==0)
+        {
+            left.push(num);
+        }
+        else
+        {
+            if(right.size()!=0&&num>right.top())
+                right.push(num);
+            else
+                left.push(num);
+            if((left.size()-right.size())>1)
+            {
+                if(left.size()>right.size())
+                {
+                    right.push(left.top());
+                    left.pop();
+                }
+                else
+                {
+                    left.push(right.top());
+                    right.pop();
+                }
+            }
+        }
+        
+    }
+    
     double findMedian() {
-        if(firstQ.size() == secQ.size()) return firstQ.empty()?0:( (firstQ.top()+secQ.top())/2.0);
-        else return (firstQ.size() > secQ.size())? firstQ.top():secQ.top(); 
+        if(left.size()+right.size()==1)
+            return left.top();
+        if(left.size()==right.size())
+        {
+            return 1.0*(left.top()+right.top())/2;
+        }
+        if(left.size()>right.size())
+            return left.top();
+        return right.top();
+        
+        
     }
 };
+
+/**
+ * Your MedianFinder object will be instantiated and called as such:
+ * MedianFinder* obj = new MedianFinder();
+ * obj->addNum(num);
+ * double param_2 = obj->findMedian();
+ */
