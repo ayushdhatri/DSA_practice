@@ -22,15 +22,11 @@ public:
     }
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int>ans;
-        if(root==NULL)
-            return ans;
-        if(root->left == NULL&& root->right == NULL)
-        {
-            ans.push_back(root->val);
-            return ans;
-        }
-        inorder(root, ans);
+        inorder(root,ans);
+        
+        
         return ans;
-            
+        
+        
     }
 };
