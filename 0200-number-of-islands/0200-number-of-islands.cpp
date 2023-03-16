@@ -1,52 +1,53 @@
 class Solution {
 public:
-    void bfs(int row, int col, vector<vector<bool>>&visited, vector<vector<char>>&grid)
+    void bfs(int prow, int pcol, vector<vector<char>>&grid, vector<vector<bool>>&visited)
     {
+        visited[prow][pcol]=true;
         queue<pair<int, int>>q;
-        q.push({row, col});
+        q.push({prow, pcol});
+        int drow[]={-1,0,+1,0};
+        int dcol[]={0,+1,0,-1};
         while(q.size()!=0)
         {
-            int len = q.size();
-            for(int i=0;i<len;i++)
+            int crow = q.front().first;
+            int ccol = q.front().second;
+            q.pop();
+            for(int i=0;i<4;i++)
             {
-                pair<int, int>curr = q.front();
-                q.pop();
-                if(visited[curr.first][curr.second]==false)
+                int nrow = crow+drow[i];
+                int ncol = ccol+dcol[i];
+                if(nrow>=0&&nrow<grid.size()&&ncol>=0&&ncol<grid[0].size()&&visited[nrow][ncol]==false&&grid[nrow][ncol]=='1')
                 {
-                    visited[curr.first][curr.second]=true;
-                    int prow=curr.first;
-                    int pcol = curr.second;
-                    if(pcol-1>=0&&grid[prow][pcol-1]=='1'&&visited[prow][pcol-1]==false)
-                        q.push({prow, pcol-1});
-                    if(pcol+1<grid[0].size()&&grid[prow][pcol+1]=='1'&&visited[prow][pcol+1]==false)
-                        q.push({prow, pcol+1});
-                    if(prow-1>=0&&grid[prow-1][pcol]=='1'&&visited[prow-1][pcol]==false)
-                        q.push({prow-1, pcol});
-                    if(prow+1<grid.size()&&grid[prow+1][pcol]=='1'&&visited[prow+1][pcol]==false)
-                        q.push({prow+1, pcol});
-                    
+                    visited[nrow][ncol]=true;
+                    q.push({nrow, ncol});
                 }
             }
         }
+        return;
     }
     int numIslands(vector<vector<char>>& grid) {
-        int count=0;
-        int n = grid.size();
-        int m = grid[0].size();
-        vector<vector<bool>>visited(n, vector<bool>(m, false));
-        for(int i=0;i<n;i++)
+        int m = grid.size();
+        int n = grid[0].size();
+        vector<vector<bool>>visited(m, vector<bool>(n, false));
+        int ans = 0;
+        for(int i=0;i<m;i++)
         {
-            for(int j =0;j<m;j++)
+            for(int j = 0;j<n;j++)
             {
-                char ch = grid[i][j];
-                if(ch=='1'&&visited[i][j]==false)
+                if(visited[i][j]==false&&grid[i][j]=='1')
                 {
-                    count++;
-                    bfs(i,j,visited,grid);
+                    bfs(i, j, grid, visited);
+                    ans++;
                 }
             }
         }
-       return count;
+        
+        
+        
+        
+        
+        return ans;
+        
         
         
     }
