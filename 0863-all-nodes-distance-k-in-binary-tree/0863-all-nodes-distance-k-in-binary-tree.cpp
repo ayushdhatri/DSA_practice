@@ -9,78 +9,71 @@
  */
 class Solution {
 public:
-    void parenttraversal(TreeNode* root,unordered_map<TreeNode* , TreeNode*>&parent)// we construct parent of each node
+    void buildparent(TreeNode* root, unordered_map<TreeNode*, TreeNode*>&freq, unordered_map<TreeNode*, bool>&visited)
     {
-        if(root==NULL)
-            return;
-        queue<TreeNode*>q;
-        q.push(root);
-        while(q.size()!=0)
+        if(root!=NULL)
         {
-            int len = q.size();
-            for(int i=0;i<len;i++)
-            {
-                TreeNode* curr = q.front();
-                q.pop();
-                if(curr->left!=NULL)
-                {
-                    parent[curr->left]=curr;
-                    q.push(curr->left);
-                }
-                if(curr->right!=NULL)
-                {
-                    parent[curr->right]=curr;
-                    q.push(curr->right);
-                }
-                
+            if(root->left!=NULL){
+                freq[root->left]=root;
             }
+            if(root->right!=NULL)
+                freq[root->right]=root;
+            visited[root]=false;
+            buildparent(root->left, freq, visited);
+            buildparent(root->right, freq,visited);
+            
         }
     }
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        unordered_map<TreeNode* , TreeNode*>parent;
-        parent[root]=NULL;
-        parenttraversal(root, parent);
-        int currlevel = 0;
+        // if i can do level order traversal in all direction then i can do this question very easeily
+        // so basically i need a parent for each element;
+        // basically each node will have parent
+        
+        unordered_map<TreeNode*, TreeNode*>parent;
         unordered_map<TreeNode*,bool>visited;
+        
+        parent[root]=NULL;
+        buildparent(root, parent,visited);
+        // we can do bfs simple
         queue<TreeNode*>q;
         q.push(target);
+        vector<int>ans;
+        int currlevel = 0;
         visited[target]=true;
         while(q.size()!=0)
         {
-            int len = q.size();
-            if(currlevel++ == k)break;
             
-            for(int i=0;i<len;i++)
-            {
+            int len = q.size();
+            if(currlevel++==k){break;
+                
+            }
+            for(int i=0;i<len;i++){
                 TreeNode* curr = q.front();
                 q.pop();
                 if(curr->left!=NULL&&visited[curr->left]==false)
                 {
-                    visited[curr->left]=true;
                     q.push(curr->left);
+                    visited[curr->left]=true;
                 }
-                if(curr->right!=NULL&&visited[curr->right]==false)
-                {
-                    visited[curr->right]=true;
+                if(curr->right!=NULL&&visited[curr->right]==false){
                     q.push(curr->right);
+                    visited[curr->right]=true;
                 }
                 if(parent[curr]!=NULL&&visited[parent[curr]]==false)
                 {
-                    visited[parent[curr]]=true;
                     q.push(parent[curr]);
+                    visited[parent[curr]]=true;
                 }
             }
             
+            
         }
-        vector<int>res;
         while(q.size()!=0)
         {
-            TreeNode* curr = q.front();q.pop();
-            res.push_back(curr->val);
+            ans.push_back(q.front()->val);
+            q.pop();
         }
-        return res;
-        
-        
+        return ans;
         
         
         
