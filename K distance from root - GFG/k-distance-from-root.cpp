@@ -120,45 +120,26 @@ struct Node
 vector<int> Kdistance(struct Node *root, int k)
 {
   // Your code here
-      queue<Node*>q;
-      q.push(root);
-      vector<int>ans;
-      if(root&&k==0)
-      {
-          ans.push_back(root->data);
-          return ans;
-      }
-      int level=1;
-      while(q.size()!=0)
-      {
-          int len = q.size();
-          vector<int>mid;
-          for(int i=0;i<len;i++)
-          {
-              Node* curr = q.front();
-              q.pop();
-              if(curr->left!=NULL)
-              {
-                  q.push(curr->left);
-                  mid.push_back(curr->left->data);
-                  
-              }
-              if(curr->right!=NULL)
-              {
-                  q.push(curr->right);
-                  mid.push_back(curr->right->data);
-              }
-           }
-           if(k==level)
-           {
-               ans=mid;
-               break;
-           }
-           level++;
-      }
-      return ans;
+ 
+  queue<Node*>q;
+  q.push(root);
+  int level =-1;
+  while(q.size()!=0)
+  {
+      int len = q.size();
+      level++;
+       vector<int>ans;
+       for(int i = 0;i<len;i++)
+       {
+           Node* curr = q.front();
+           q.pop();
+           ans.push_back(curr->data);
+           if(curr->left!=NULL)q.push(curr->left);
+           if(curr->right!=NULL)q.push(curr->right);
+       }
+       if(level==k)return ans;
+      
+  }
   
-  
-  
-  
+  return {};
 }
