@@ -97,34 +97,27 @@ class Solution {
   public:
     vector <int> bottomView(Node *root) {
         // Your Code Here
-        unordered_map<int, vector<int>>freq;
-        int minn = 0;
-        int maxx = 0;
-        queue<pair<Node*, int>>q;
-        q.push({root, 0});
+        queue<pair<Node*,int>>q;
+        q.push({root,0});
+        map<int, vector<int>>order_level;
         while(q.size()!=0)
         {
             int len = q.size();
-            for(int i =0;i<len;i++)
+            for(int i = 0;i<len;i++)
             {
-                pair<Node*, int>curr = q.front();
+                Node* curr = q.front().first;
+                int curr_ind = q.front().second;
                 q.pop();
-                Node* treenode = curr.first;
-                int ind = curr.second;
-                freq[ind].push_back(treenode->data);
-                minn = min(minn, ind);
-                maxx = max(maxx, ind);
-                if(treenode->left!=NULL)q.push({treenode->left, ind-1});
-                if(treenode->right!=NULL)q.push({treenode->right, ind+1});
-                
+                order_level[curr_ind].push_back(curr->data);
+                if(curr->left!=NULL)q.push({curr->left, curr_ind-1});
+                if(curr->right!=NULL)q.push({curr->right, curr_ind+1});
             }
         }
         vector<int>ans;
-        for(int i=minn;i<=maxx;i++)
+        for(auto x:order_level)
         {
-            vector<int>temp = freq[i];
-            reverse(temp.begin(), temp.end());
-            ans.push_back(temp[0]);
+            vector<int>temp =x.second;
+            ans.push_back(temp[temp.size()-1]);
         }
         return ans;
     }
