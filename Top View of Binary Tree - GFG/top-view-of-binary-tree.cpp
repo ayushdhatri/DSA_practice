@@ -102,45 +102,38 @@ class Solution
     public:
     //Function to return a list of nodes visible from the top view 
     //from left to right in Binary Tree.
-   vector<int> topView(Node *root)
+    vector<int> topView(Node *root)
     {
         //Your code here
-        unordered_map<int, vector<int>>freq;
-        int index=0;
-        int minn = 0;
-        int maxx = 0;
-        queue<pair<Node* , int>>q;
-        q.push({root, index});
+        if(root==NULL)return {};
+        map<int, vector<int>>mod_level_order;
+        queue<pair<Node*, int>>q;
+        q.push({root, 0});
         while(q.size()!=0)
         {
             int len = q.size();
-            for(int i=0;i<len;i++)
+            for(int i = 0;i<len;i++)
             {
-                pair<Node*, int>curr = q.front();
+                Node* curr = q.front().first;
+                int curr_ind = q.front().second;
                 q.pop();
-                Node* treenode = curr.first;
-                int ind = curr.second;
-                freq[ind].push_back(treenode->data);
-                minn = min(minn, ind);
-                maxx = max(maxx, ind);
-                if(treenode->left!=NULL)
-                    q.push({treenode->left, ind-1});
-                if(treenode->right!=NULL)
-                    q.push({treenode->right, ind+1});
+                mod_level_order[curr_ind].push_back(curr->data);
+                if(curr->left!=NULL)q.push({curr->left, curr_ind-1});
+                if(curr->right!=NULL)q.push({curr->right, curr_ind+1});
             }
         }
         vector<int>ans;
-       
-        for(int i=minn;i<=maxx;i++)
+        for(auto x: mod_level_order)
         {
-            vector<int>temp = freq[i];
-            
+            vector<int>temp=x.second;
             ans.push_back(temp[0]);
         }
         return ans;
         
         
         
+        
+       
     }
 
 };
