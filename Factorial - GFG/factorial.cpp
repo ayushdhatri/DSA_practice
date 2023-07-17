@@ -11,7 +11,15 @@ public:
     }
     long long int factorial(int N){
         //code here
-        return fact(N);
+        vector<long long int>dp(N+1);
+   
+        dp[0]=1;
+        dp[1]=1;
+        if(N<=1)return 1;
+        for(int i= 2;i<=N;i++){
+            dp[i]=i*dp[i-1];
+        }
+        return dp[N];
     }
 };
 
