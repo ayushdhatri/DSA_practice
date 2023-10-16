@@ -9,43 +9,35 @@ using namespace std;
 
 class Solution{
   public:
-    int longestKSubstr(string s, int k) {
+    int longestKSubstr(string str, int k) {
+    // your code here
     
-    unordered_map<char, int>freq;
-    int i=0, j=0;
-    int n = s.size();
-    int ans = -1;
-    while(j<n)
-    {
-        if(freq.find(s[j])==freq.end())
-            freq.insert({s[j],1});
-        else
-            freq[s[j]]++;
-        if(freq.size()<k)
+    int i=0,j=0;
+    int maxi=INT_MIN;
+    int count=0;
+    unordered_map<char,int> map;
+    map.clear(); 
+    while(j<str.size()){
+        map[str[j]]++;
+        if(map.size()<k){
             j++;
-        else if(freq.size()==k)
-        {
-            ans = max(ans, j-i+1);
+        }else if(map.size()==k){
+            maxi=max(maxi,j-i+1);
             j++;
-        }
-        else
-        {
-            while(freq.size()>k)
-            {
-                if(freq[s[i]]==1)
-                    freq.erase(s[i]);
-                else
-                    freq[s[i]]--;
-                i++;    
+        }else if(map.size()>k){
+            while(map.size()>k){
+                map[str[i]]--;
+                if(map[str[i]]==0){
+                    map.erase(str[i]);
+                }
+                i++;
             }
-            if(freq.size()==k)
-            ans = max(ans, j-i+1);
-            j++;    
+            j++;
         }
     }
-    return ans;
-    
-    
+    if(maxi==INT_MIN)return -1;
+    return maxi;
+
     }
 };
 
