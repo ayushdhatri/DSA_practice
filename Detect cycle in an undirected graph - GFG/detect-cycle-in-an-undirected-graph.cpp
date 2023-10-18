@@ -6,28 +6,25 @@ using namespace std;
 class Solution {
   public:
     // Function to detect cycle in an undirected graph.
-    bool bfs(int vertex,vector<bool>&visited, vector<int> adj[])
-    {
+    bool bfs(int vertex, vector<bool>&visited, vector<int>adj[]){
         queue<pair<int, int>>q;
-        q.push({vertex,-1});
         visited[vertex]=true;
-        while(q.size()!=0)
-        {
-            int vertex = q.front().first;
+        q.push({vertex, -1});
+        while(q.size()!=0){
+            int node = q.front().first;
             int par = q.front().second;
             q.pop();
-            for(auto x: adj[vertex])
-            {
-                if(visited[x]==true)
-                {
-                    if(x!=par)
-                    return true;
+            for(auto adjnode: adj[node]){
+                if(visited[adjnode]==false){
+                    visited[adjnode]=true;
+                    q.push({adjnode, node});
                 }
-                else
-                {
-                    visited[x]=true;
-                    q.push({x, vertex});
+                else{
+                    if(adjnode!=par){
+                        return true;
+                    }
                 }
+                
             }
             
         }
@@ -37,19 +34,14 @@ class Solution {
     bool isCycle(int V, vector<int> adj[]) {
         // Code here
         vector<bool>visited(V, false);
-        int ans = false;
-        for(int i =0;i<V;i++)
-        {
-            if(visited[i]==false)
-            {
-               bool temp = bfs(i, visited, adj);
-               ans = ans||temp;
+        bool ans = false;
+        for(int i = 0;i<V;i++){
+            if(visited[i]==false){
+                bool temp = bfs(i, visited, adj);
+                ans = ans||temp;
             }
         }
         return ans;
-        
-        
-        
     }
 };
 
