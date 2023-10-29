@@ -8,71 +8,36 @@ using namespace std;
 // User function Template for C++
 class Solution {
   public:
-  void toposort(int vertex, vector<bool>&visited, stack<int>&st, vector<pair<int,int>>adj[])
-  {
-      visited[vertex]=true;
-      for(auto x: adj[vertex])
-      {
-          int node = x.first;
-          if(visited[node]==false)
-          {
-              toposort(node, visited, st, adj);
-          }
-      }
-      st.push(vertex);
-  }
      vector<int> shortestPath(int N,int M, vector<vector<int>>& edges){
         // code here
+        vector<int>dist(N, INT_MAX);
         vector<pair<int, int>>adj[N];
-        for(int i= 0;i<M;i++)
-        {
+        for(int i= 0;i<M;i++){
             int u = edges[i][0];
             int v = edges[i][1];
-            int wt = edges[i][2];
-            adj[u].push_back({v, wt});
+            int d = edges[i][2];
+            adj[u].push_back({v, d});
         }
-        vector<bool>visited(N, false);
-        stack<int>st;
-        for(int i=0;i<N;i++)
-        {
-            if(visited[i]==false)
-            {
-                toposort(i, visited, st, adj);
-            }
-        }
-        vector<int>dist(N, INT_MAX);
-        int src = 0;
-        dist[src]=0;
-        while(st.top()!=src)
-        {
-            st.pop();
-        }
-        while(st.size()!=0)
-        {
-            int node = st.top();
-            st.pop();
-            for(auto x: adj[node])
-            {
-                int adjnode = x.first;
-                int wt = x.second;
-                if(dist[node]+wt<dist[adjnode])
-                {
-                    dist[adjnode]=dist[node]+wt;
+        queue<pair<int, int>>q;
+        q.push({0, 0});
+        dist[0]=0;
+        while(q.size()!=0){
+            int node = q.front().first;
+            int distt = q.front().second;
+            q.pop();
+            for(auto x: adj[node]){
+                int adj_node = x.first;
+                int adj_dist = x.second;
+                if(distt+adj_dist<dist[adj_node]){
+                    dist[adj_node] = distt + adj_dist;
+                    q.push({adj_node, dist[adj_node]});
                 }
             }
         }
-        for(int i =0;i<N;i++)
-        {
-            if(dist[i]==INT_MAX)
-            {
-                dist[i]=-1;
-            }
+        for(int i = 0;i<N;i++){
+            if(dist[i]==INT_MAX)dist[i]=-1;
         }
         return dist;
-        
-        
-        
-        
     }
 };
 
