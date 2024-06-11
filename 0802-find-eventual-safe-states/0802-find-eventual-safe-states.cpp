@@ -29,9 +29,9 @@ public:
         vector<bool> visited(n,false), dfsVisited(n,false);
         set<int> cycle; // storing all elements who are part of any cycle detected
         for(int i=0;i<n;i++){
-            
+            if(visited[i]==false){
                 if(dfs(graph,i,visited,dfsVisited,cycle)) cycle.insert(i);
-            
+            }
         }
         
 		vector<int> ans;
