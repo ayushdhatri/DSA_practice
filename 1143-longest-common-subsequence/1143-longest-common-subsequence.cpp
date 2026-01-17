@@ -1,27 +1,33 @@
 class Solution {
 public:
-    
-    int longestCommonSubsequence(string s1, string s2) {
-       int n = s1.size();
-       int m = s2.size();
-        vector<vector<int>>dp(n+1, vector<int>(m+1, 0));
-        for(int index1=1;index1<=n;index1++)
-        {
-            for(int index2=1;index2<=m;index2++)
-            {
-                if(s1[index1-1]==s2[index2-1])
-                {   
-                    dp[index1][index2]=1 + dp[index1-1][index2-1];
-                }
-                else
-                {
-                    int a = dp[index1-1][index2];
-                    int b = dp[index1][index2-1];
-                    dp[index1][index2]=max(a, b);
-                }
-            }
-        }
-        return dp[n][m];
+int lcs(int index1, int index2, string &text1, string &text2, vector<vector<int>>&dp){
+    // pruning
+
+    // base case
+    if(index1 >= text1.size() || index2>= text2.size())return 0;
+
+    // cache
+    if(dp[index1][index2] != -1)return dp[index1][index2];
+
+    // transition
+    int ans = 0;
+    if(text1[index1] == text2[index2]){
+        ans = 1 + lcs(index1 + 1, index2 + 1, text1, text2, dp);
+    }
+    else{
+        ans = max(lcs(index1 + 1, index2, text1, text2, dp),
+        lcs(index1, index2 + 1, text1, text2, dp));
+    }
+
+    // save and return
+    return dp[index1][index2] = ans;
+
+}
+    int longestCommonSubsequence(string text1, string text2) {
+        int n = text1.size();
+        int m = text2.size();
+        vector<vector<int>>dp(n, vector<int>(m, -1));
+        return lcs(0,0,text1,text2,dp);
         
     }
 };
