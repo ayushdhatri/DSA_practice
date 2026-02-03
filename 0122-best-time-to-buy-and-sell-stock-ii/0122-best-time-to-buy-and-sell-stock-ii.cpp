@@ -1,42 +1,28 @@
 class Solution {
 public:
-    vector<vector<int>> dp;
-    int n;
-    
     int maxProfit(vector<int>& prices) {
-        n = prices.size();
-        dp.assign(n, vector<int>(2, -1));
-        return solve(0, 0, prices);  // Start from day 0
-    }
-    
-private:
-    // dp(level, holding) = max profit from day 'level' to end
-    int solve(int level, int holding, vector<int>& prices) {
-        // Base case: past last day
-        if (level >= n) {
-            return 0;
+        int n = prices.size();
+        vector<vector<int>> dp(n + 1, vector<int>(2, 0));
+        
+        // Base case: dp[n][0] = dp[n][1] = 0 (already initialized)
+        
+        // Fill table backwards (from day n-1 to day 0)
+        for (int level = n - 1; level >= 0; level--) {
+            for (int holding = 0; holding <= 1; holding++) {
+                if (holding) {
+                    // Can sell or hold
+                    int sell = prices[level] + dp[level + 1][0];
+                    int hold = dp[level + 1][1];
+                    dp[level][holding] = max(sell, hold);
+                } else {
+                    // Can buy or skip
+                    int buy = -prices[level] + dp[level + 1][1];
+                    int skip = dp[level + 1][0];
+                    dp[level][holding] = max(buy, skip);
+                }
+            }
         }
         
-        // Cache check
-        if (dp[level][holding] != -1) {
-            return dp[level][holding];
-        }
-        
-        // Transition - try all possible actions today
-        int ans;
-        
-        if (holding) {
-            // Can sell or hold
-            int sell = prices[level] + solve(level + 1, 0, prices);
-            int hold = solve(level + 1, 1, prices);
-            ans = max(sell, hold);
-        } else {
-            // Can buy or skip
-            int buy = -prices[level] + solve(level + 1, 1, prices);
-            int skip = solve(level + 1, 0, prices);
-            ans = max(buy, skip);
-        }
-        
-        return dp[level][holding] = ans;
+        return dp[0][0];  // Start from day 0, not holding any stock
     }
 };
