@@ -4,6 +4,7 @@ public:
     int minimumTime(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
+        if(grid[0][1] > 1 && grid[1][0] > 1) return -1;
         vector<vector<int>>timeToReach(m, vector<int>(n, INF));
         priority_queue<pair<int, pair<int ,int>>,
         vector<pair<int, pair<int ,int>>>,
@@ -27,9 +28,21 @@ public:
                 int nrow = currRow + drow[i];
                 int ncol = currCol + dcol[i];
                 if(nrow >=0 && nrow < m && ncol>=0 && ncol < n){
+                    int newTime;
                     if(currTimeToReach + 1 >= grid[nrow][ncol]){
-                        timeToReach[nrow][ncol] = currTimeToReach + 1;
-                        pq.push({timeToReach[nrow][ncol], {nrow, ncol}});
+                       
+                        newTime = currTimeToReach + 1;
+                    }
+                    else{
+                        // need to wait and osscilate
+                        int timeTake = currTimeToReach;
+                        int timeDiff = grid[nrow][ncol] - currTimeToReach;
+                        timeTake = timeDiff%2==0 ?grid[nrow][ncol] + 1 : grid[nrow][ncol];
+                        newTime = timeTake;
+                    }
+                    if(newTime < timeToReach[nrow][ncol]){
+                        pq.push({newTime, {nrow, ncol}});
+                        timeToReach[nrow][ncol] = newTime;
                     }
                 }
             }
