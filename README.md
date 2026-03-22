@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0724-find-pivot-index](https://github.com/ayushdhatri/DSA_practice/tree/main/0724-find-pivot-index/) | Easy |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1480-running-sum-of-1d-array/) | Easy |
+| [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2574-left-and-right-sum-differences](https://github.com/ayushdhatri/DSA_practice/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/2577-minimum-time-to-visit-a-cell-in-a-grid/) | Hard |
@@ -85,9 +86,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0724-find-pivot-index](https://github.com/ayushdhatri/DSA_practice/tree/main/0724-find-pivot-index/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1480-running-sum-of-1d-array/) | Easy |
+| [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/ayushdhatri/DSA_practice/tree/main/2574-left-and-right-sum-differences/) | Easy |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0303-range-sum-query-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0303-range-sum-query-immutable/) | Easy |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
 <!---LeetCode Topics End-->
