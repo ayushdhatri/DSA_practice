@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0303-range-sum-query-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1480-running-sum-of-1d-array/) | Easy |
@@ -79,5 +80,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0303-range-sum-query-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1480-running-sum-of-1d-array/) | Easy |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0303-range-sum-query-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0303-range-sum-query-immutable/) | Easy |
 <!---LeetCode Topics End-->
