@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0164-maximum-gap](https://github.com/ayushdhatri/DSA_practice/tree/main/0164-maximum-gap/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0164-maximum-gap](https://github.com/ayushdhatri/DSA_practice/tree/main/0164-maximum-gap/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
@@ -132,11 +134,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0164-maximum-gap](https://github.com/ayushdhatri/DSA_practice/tree/main/0164-maximum-gap/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
 ## Radix Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0164-maximum-gap](https://github.com/ayushdhatri/DSA_practice/tree/main/0164-maximum-gap/) | Medium |
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
 ## Counting Sort
 | Problem Name | Difficulty |
