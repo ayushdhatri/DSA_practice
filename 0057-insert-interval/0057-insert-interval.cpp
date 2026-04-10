@@ -1,35 +1,30 @@
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
-        if(intervals.size() == 0){
-            // handle it and return from here
-        }
-        vector<pair<int,int>>arr;
-        for(int i = 0;i<intervals.size();i++){
-            arr.push_back({intervals[i][0], intervals[i][1]});
-        }
-        arr.push_back({newInterval[0], newInterval[1]});
-        sort(arr.begin(), arr.end());
-        int prev_index = 0;
-        int curr_index = 1;
+        int i = 0, n = intervals.size();
         vector<vector<int>>ans;
-        while(curr_index < arr.size()){
-            int prev_start = arr[prev_index].first;
-            int prev_end = arr[prev_index].second;
-            int curr_start = arr[curr_index].first;
-            int curr_end = arr[curr_index].second;
-            if(curr_start <= prev_end){
-                arr[prev_index].second = max(curr_end, prev_end);
+        while(i < n){
+            if(intervals[i][1] < newInterval[0]){
+                // if current interval end is less than start point of new Interval
+                ans.push_back(intervals[i]);
+                i++;
             }
-            else{
-                ans.push_back({arr[prev_index].first, arr[prev_index].second});
-                prev_index = curr_index;
-
-            }
-            curr_index+=1;
+            else break;
         }
-        ans.push_back({arr[prev_index].first, arr[prev_index].second});
 
+        // phase 2
+
+        while(i < n && intervals[i][0] <= newInterval[1]){
+            // it overlap
+            newInterval[0] = min(newInterval[0], intervals[i][0]);
+            newInterval[1] = max(newInterval[1], intervals[i][1]);
+            i++;
+        }
+        ans.push_back(newInterval);
+        while(i < n){
+            ans.push_back(intervals[i]);
+            i++;
+        }
         return ans;
         
     }
