@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0724-find-pivot-index](https://github.com/ayushdhatri/DSA_practice/tree/main/0724-find-pivot-index/) | Easy |
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
+| [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1480-running-sum-of-1d-array/) | Easy |
@@ -151,4 +152,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
+## Sweep Line
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
 <!---LeetCode Topics End-->
