@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2574-left-and-right-sum-differences](https://github.com/ayushdhatri/DSA_practice/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/2577-minimum-time-to-visit-a-cell-in-a-grid/) | Hard |
+| [3835-count-subarrays-with-cost-less-than-or-equal-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3835-count-subarrays-with-cost-less-than-or-equal-to-k/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -160,4 +161,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3835-count-subarrays-with-cost-less-than-or-equal-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3835-count-subarrays-with-cost-less-than-or-equal-to-k/) | Medium |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3835-count-subarrays-with-cost-less-than-or-equal-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3835-count-subarrays-with-cost-less-than-or-equal-to-k/) | Medium |
 <!---LeetCode Topics End-->
