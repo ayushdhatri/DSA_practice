@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdhatri/DSA_practice/tree/main/2090-k-radius-subarray-averages/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
 | [2574-left-and-right-sum-differences](https://github.com/ayushdhatri/DSA_practice/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/2577-minimum-time-to-visit-a-cell-in-a-grid/) | Hard |
 | [3835-count-subarrays-with-cost-less-than-or-equal-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3835-count-subarrays-with-cost-less-than-or-equal-to-k/) | Medium |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
 | [2574-left-and-right-sum-differences](https://github.com/ayushdhatri/DSA_practice/tree/main/2574-left-and-right-sum-differences/) | Easy |
 ## Design
 | Problem Name | Difficulty |
@@ -129,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdhatri/DSA_practice/tree/main/2090-k-radius-subarray-averages/) | Medium |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -179,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
