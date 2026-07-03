@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
+| [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdhatri/DSA_practice/tree/main/2090-k-radius-subarray-averages/) | Medium |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
 ## Divide and Conquer
@@ -181,10 +183,23 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0881-boats-to-save-people](https://github.com/ayushdhatri/DSA_practice/tree/main/0881-boats-to-save-people/) | Medium |
+## Rolling Hash
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
+## Suffix Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
+## Hash Function
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 <!---LeetCode Topics End-->
