@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1745-palindrome-partitioning-iv](https://github.com/ayushdhatri/DSA_practice/tree/main/1745-palindrome-partitioning-iv/) | Hard |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -169,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0881-boats-to-save-people](https://github.com/ayushdhatri/DSA_practice/tree/main/0881-boats-to-save-people/) | Medium |
 | [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 ## Sweep Line
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -191,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0881-boats-to-save-people](https://github.com/ayushdhatri/DSA_practice/tree/main/0881-boats-to-save-people/) | Medium |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 ## Rolling Hash
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -207,4 +210,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1745-palindrome-partitioning-iv](https://github.com/ayushdhatri/DSA_practice/tree/main/1745-palindrome-partitioning-iv/) | Hard |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 <!---LeetCode Topics End-->
