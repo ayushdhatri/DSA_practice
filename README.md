@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
 | [2574-left-and-right-sum-differences](https://github.com/ayushdhatri/DSA_practice/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/2577-minimum-time-to-visit-a-cell-in-a-grid/) | Hard |
+| [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
 | [3835-count-subarrays-with-cost-less-than-or-equal-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3835-count-subarrays-with-cost-less-than-or-equal-to-k/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -198,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
+| [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
 ## Suffix Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -206,9 +208,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
+| [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1745-palindrome-partitioning-iv](https://github.com/ayushdhatri/DSA_practice/tree/main/1745-palindrome-partitioning-iv/) | Hard |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
 <!---LeetCode Topics End-->
