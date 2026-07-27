@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0164-maximum-gap](https://github.com/ayushdhatri/DSA_practice/tree/main/0164-maximum-gap/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0336-palindrome-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/0336-palindrome-pairs/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/ayushdhatri/DSA_practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
@@ -59,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0336-palindrome-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/0336-palindrome-pairs/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/ayushdhatri/DSA_practice/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
@@ -67,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0336-palindrome-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/0336-palindrome-pairs/) | Hard |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
@@ -207,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Function
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0336-palindrome-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/0336-palindrome-pairs/) | Hard |
 | [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
 ## Dynamic Programming
@@ -218,4 +222,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0336-palindrome-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/0336-palindrome-pairs/) | Hard |
 <!---LeetCode Topics End-->
