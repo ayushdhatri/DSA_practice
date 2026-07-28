@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
 | [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdhatri/DSA_practice/tree/main/2090-k-radius-subarray-averages/) | Medium |
+| [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
 | [2574-left-and-right-sum-differences](https://github.com/ayushdhatri/DSA_practice/tree/main/2574-left-and-right-sum-differences/) | Easy |
@@ -67,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 | [2744-find-maximum-number-of-string-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/2744-find-maximum-number-of-string-pairs/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -77,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1745-palindrome-partitioning-iv](https://github.com/ayushdhatri/DSA_practice/tree/main/1745-palindrome-partitioning-iv/) | Hard |
+| [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [2744-find-maximum-number-of-string-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/2744-find-maximum-number-of-string-pairs/) | Easy |
 ## Sorting
@@ -138,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
+| [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -202,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0881-boats-to-save-people](https://github.com/ayushdhatri/DSA_practice/tree/main/0881-boats-to-save-people/) | Medium |
+| [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 ## Rolling Hash
 | Problem Name | Difficulty |
