@@ -1,60 +1,69 @@
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
-    int dp1[1001][1001];  // for palindrome check
-    int dp2[1001][1001];  // for LPS length
-    int bestStart = 0, bestLen = 1;
-    bool palindromSubstr(int i, int j, string &s){
-        if(i >= j) return true;
-        if(dp1[i][j] != -1) return dp1[i][j];
-        
-        bool ans = false;
-        if(s[i] == s[j]){
-            ans = palindromSubstr(i+1, j-1, s);
-        }
-        return dp1[i][j] = ans;
-    }
-    
-    int lps(int l, int r, string &s){
-        // base case
-        if(l == r) return 1;
-        if(l > r) return 0;
-        
-        // cache - ADDED THIS!
-        if(dp2[l][r] != -1) return dp2[l][r];
-        
-        // Check if entire substring is palindrome
-        if(palindromSubstr(l, r, s)){
-             int len = r - l + 1;
-            if(len > bestLen){  // Update best palindrome
-                bestLen = len;
-                bestStart = l;
-            }
-            return dp2[l][r] = len;
+    struct manachar {
+        vector<int> p;
 
-        }
-        
-        // Try removing from left or right
-        int ans = max(lps(l+1, r, s), lps(l, r-1, s));
-        
-        return dp2[l][r] = ans;
-    }
-    
-    string longestPalindrome(string s) {
-        int n = s.size();
-        memset(dp1, -1, sizeof(dp1));
-        memset(dp2, -1, sizeof(dp2));
-        lps(0, n-1, s);
-        int ians = 0,jans = 0;
-        int ans = 1;
-        for(int i = 0;i<n;i++){
-            for(int j = 0;j<n;j++){
-                if(dp2[i][j] > ans){
-                    ans = dp2[i][j];
-                    ians = i;
-                    jans = j;
+        void runManachar(string t) {
+            int n = t.size();
+            p.assign(n, 1);
+            int l = 1, r = 1;
+
+            for (int i = 1; i < n; i++) {
+                if(i < r)
+                    p[i] = max(0, min(r - i, p[r - i + l]));
+
+                // BUG FIX 1: Use 'while' instead of 'if'
+                // BUG FIX 2: Correct lower bound check to (i - p[i] >= 0)
+                while (i - p[i] >= 0 && i + p[i] < n && t[i + p[i]] == t[i - p[i]]) {
+                    p[i]++;
+                }
+
+                if (i + p[i] > r) {
+                    l = i - p[i];
+                    r = i + p[i];
                 }
             }
         }
-        return s.substr(bestStart,bestLen);
+
+        // BUG FIX 3: Change return type from void to vector<int>
+        vector<int> build(string s) {
+            // BUG FIX 4: Properly interleave characters with '#'
+            string t="";
+            for(auto x: s)
+            {
+                t+=(string("#") + x);
+            }
+            runManachar(t+"#");
+            return this->p;
+        }
+    };
+
+    string longestPalindrome(string s) {
+      
+
+        manachar m1;
+        vector<int> manArr = m1.build(s);
+        cout<<manArr.size()<<endl;
+        int max_radius = 0;
+        int centerIndex = 0;
+
+        // Find center index with the maximum radius
+        for (int i = 0; i < manArr.size(); i++) {
+            if (manArr[i] > max_radius) {
+                max_radius = manArr[i];
+                centerIndex = i;
+            }
+        }
+
+        // Length of palindrome in original string
+        int max_len = max_radius - 1;
+
+        // Formula to convert index from transformed string 't' back to original string 's'
+        int startIndex = (centerIndex - max_len) / 2;
+        cout<<startIndex<<" "<<max_len;
+        return s.substr(startIndex, max_len);
+    
     }
 };
