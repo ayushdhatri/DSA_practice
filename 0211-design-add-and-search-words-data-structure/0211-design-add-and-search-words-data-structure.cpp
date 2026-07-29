@@ -46,11 +46,21 @@ struct Trie{
         if(x < 26 && curr->child[x] == NULL)return false;
         return dfs(curr->child[x], s, index+1);
     }
-    bool findWord(string s){
-        Node* curr = root;
-        return dfs(curr, s, 0);
-
+    bool findWord(string s) {
+    Node* curr = root;
+    for (int i = 0; i < s.size(); i++) {
+        if (s[i] == '.') {
+            // Found a dot! Hand off to DFS starting at this node & index
+            return dfs(curr, s, i);
+        }
+        
+        int x = s[i] - 'a';
+        if (curr->child[x] == NULL) return false;
+        curr = curr->child[x]; // Keep walking iteratively
     }
+    
+    return curr->word_end > 0;
+}
 
 }wordTrie;
     WordDictionary() {
