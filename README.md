@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2744-find-maximum-number-of-string-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/2744-find-maximum-number-of-string-pairs/) | Easy |
 | [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
 | [3835-count-subarrays-with-cost-less-than-or-equal-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3835-count-subarrays-with-cost-less-than-or-equal-to-k/) | Medium |
+| [3850-count-sequences-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3850-count-sequences-to-k/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -239,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [1745-palindrome-partitioning-iv](https://github.com/ayushdhatri/DSA_practice/tree/main/1745-palindrome-partitioning-iv/) | Hard |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
+| [3850-count-sequences-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3850-count-sequences-to-k/) | Hard |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -262,4 +264,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1032-stream-of-characters](https://github.com/ayushdhatri/DSA_practice/tree/main/1032-stream-of-characters/) | Hard |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3850-count-sequences-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3850-count-sequences-to-k/) | Hard |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3850-count-sequences-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3850-count-sequences-to-k/) | Hard |
+## Number Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3850-count-sequences-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3850-count-sequences-to-k/) | Hard |
 <!---LeetCode Topics End-->
