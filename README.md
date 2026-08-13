@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
 | [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
 | [1032-stream-of-characters](https://github.com/ayushdhatri/DSA_practice/tree/main/1032-stream-of-characters/) | Hard |
+| [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1480-running-sum-of-1d-array/) | Easy |
@@ -246,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0494-target-sum/) | Medium |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/ayushdhatri/DSA_practice/tree/main/0689-maximum-sum-of-3-non-overlapping-subarrays/) | Hard |
+| [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1745-palindrome-partitioning-iv](https://github.com/ayushdhatri/DSA_practice/tree/main/1745-palindrome-partitioning-iv/) | Hard |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [3850-count-sequences-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3850-count-sequences-to-k/) | Hard |
@@ -289,11 +291,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0494-target-sum/) | Medium |
+| [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 ## 0-1 Knapsack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0494-target-sum/) | Medium |
+| [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
