@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/ayushdhatri/DSA_practice/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1340-jump-game-v](https://github.com/ayushdhatri/DSA_practice/tree/main/1340-jump-game-v/) | Hard |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0745-prefix-and-suffix-search](https://github.com/ayushdhatri/DSA_practice/tree/main/0745-prefix-and-suffix-search/) | Hard |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/ayushdhatri/DSA_practice/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 | [2744-find-maximum-number-of-string-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/2744-find-maximum-number-of-string-pairs/) | Easy |
 ## String
@@ -258,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/ayushdhatri/DSA_practice/tree/main/0689-maximum-sum-of-3-non-overlapping-subarrays/) | Hard |
 | [0978-longest-turbulent-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0978-longest-turbulent-subarray/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
+| [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/ayushdhatri/DSA_practice/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1340-jump-game-v](https://github.com/ayushdhatri/DSA_practice/tree/main/1340-jump-game-v/) | Hard |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [1745-palindrome-partitioning-iv](https://github.com/ayushdhatri/DSA_practice/tree/main/1745-palindrome-partitioning-iv/) | Hard |
