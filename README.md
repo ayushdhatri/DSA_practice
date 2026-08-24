@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
 | [0057-insert-interval](https://github.com/ayushdhatri/DSA_practice/tree/main/0057-insert-interval/) | Medium |
 | [0164-maximum-gap](https://github.com/ayushdhatri/DSA_practice/tree/main/0164-maximum-gap/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0303-range-sum-query-immutable/) | Easy |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
 ## Merge Sort
@@ -254,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0518-coin-change-ii/) | Medium |
