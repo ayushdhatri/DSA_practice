@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
 | [0057-insert-interval](https://github.com/ayushdhatri/DSA_practice/tree/main/0057-insert-interval/) | Medium |
+| [0152-maximum-product-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0164-maximum-gap](https://github.com/ayushdhatri/DSA_practice/tree/main/0164-maximum-gap/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
@@ -257,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
+| [0152-maximum-product-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0518-coin-change-ii/) | Medium |
