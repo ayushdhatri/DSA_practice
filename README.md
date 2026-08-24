@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0745-prefix-and-suffix-search](https://github.com/ayushdhatri/DSA_practice/tree/main/0745-prefix-and-suffix-search/) | Hard |
 | [0881-boats-to-save-people](https://github.com/ayushdhatri/DSA_practice/tree/main/0881-boats-to-save-people/) | Medium |
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
+| [0978-longest-turbulent-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0978-longest-turbulent-subarray/) | Medium |
 | [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
 | [1032-stream-of-characters](https://github.com/ayushdhatri/DSA_practice/tree/main/1032-stream-of-characters/) | Hard |
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
@@ -166,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/ayushdhatri/DSA_practice/tree/main/0689-maximum-sum-of-3-non-overlapping-subarrays/) | Hard |
+| [0978-longest-turbulent-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0978-longest-turbulent-subarray/) | Medium |
 | [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdhatri/DSA_practice/tree/main/2090-k-radius-subarray-averages/) | Medium |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
@@ -254,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0518-coin-change-ii/) | Medium |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/ayushdhatri/DSA_practice/tree/main/0689-maximum-sum-of-3-non-overlapping-subarrays/) | Hard |
+| [0978-longest-turbulent-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0978-longest-turbulent-subarray/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1340-jump-game-v](https://github.com/ayushdhatri/DSA_practice/tree/main/1340-jump-game-v/) | Hard |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
