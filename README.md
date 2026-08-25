@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1340-jump-game-v](https://github.com/ayushdhatri/DSA_practice/tree/main/1340-jump-game-v/) | Hard |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
+| [1567-maximum-length-of-subarray-with-positive-product](https://github.com/ayushdhatri/DSA_practice/tree/main/1567-maximum-length-of-subarray-with-positive-product/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdhatri/DSA_practice/tree/main/2090-k-radius-subarray-averages/) | Medium |
@@ -238,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0881-boats-to-save-people](https://github.com/ayushdhatri/DSA_practice/tree/main/0881-boats-to-save-people/) | Medium |
+| [1567-maximum-length-of-subarray-with-positive-product](https://github.com/ayushdhatri/DSA_practice/tree/main/1567-maximum-length-of-subarray-with-positive-product/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
@@ -272,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/ayushdhatri/DSA_practice/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1340-jump-game-v](https://github.com/ayushdhatri/DSA_practice/tree/main/1340-jump-game-v/) | Hard |
+| [1567-maximum-length-of-subarray-with-positive-product](https://github.com/ayushdhatri/DSA_practice/tree/main/1567-maximum-length-of-subarray-with-positive-product/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [1745-palindrome-partitioning-iv](https://github.com/ayushdhatri/DSA_practice/tree/main/1745-palindrome-partitioning-iv/) | Hard |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
