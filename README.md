@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0213-house-robber-ii/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/ayushdhatri/DSA_practice/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0336-palindrome-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/0336-palindrome-pairs/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0416-partition-equal-subset-sum/) | Medium |
@@ -268,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0213-house-robber-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0213-house-robber-ii/) | Medium |
+| [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/ayushdhatri/DSA_practice/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0518-coin-change-ii/) | Medium |
