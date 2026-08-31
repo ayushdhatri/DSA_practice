@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
 | [0057-insert-interval](https://github.com/ayushdhatri/DSA_practice/tree/main/0057-insert-interval/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ayushdhatri/DSA_practice/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0164-maximum-gap](https://github.com/ayushdhatri/DSA_practice/tree/main/0164-maximum-gap/) | Medium |
 | [0213-house-robber-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0213-house-robber-ii/) | Medium |
@@ -269,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ayushdhatri/DSA_practice/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0213-house-robber-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0213-house-robber-ii/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/ayushdhatri/DSA_practice/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
