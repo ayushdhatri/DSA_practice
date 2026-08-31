@@ -1,39 +1,44 @@
 class Solution {
 public:
-int solve(int index, int holdState, int txnLeft,vector<int>&prices ,vector<vector<vector<int>>>&dp){
-    // pruning case
-    // base case
-    if(index >= prices.size() || txnLeft == 0)return 0;
+int dp[100100][2][3];
+int rec(int level, int hasStock, int maxTransaction, vector<int>&prices){
+    // pruning
+    if(maxTransaction == 0){
+        return 0;
+    }
 
-    // cache
-    if(dp[index][holdState][txnLeft] != -1)return dp[index][holdState][txnLeft];
+    // base case
+    if(level >= prices.size())return 0;
+
+    // cache1
+    if(dp[level][hasStock][maxTransaction] != -1)return dp[level][hasStock][maxTransaction];
+
     // transition
     int result = 0;
-    if(holdState == 0){
-        int doNothing = solve(index + 1, holdState, txnLeft, prices, dp);
-        int buy = solve(index + 1, !holdState, txnLeft,prices,dp) - prices[index];
-        result = max(doNothing, buy);
+    if(hasStock){
+        // you can sell this stock get some profit and complete a transaction
+        int sellHasStock = prices[level] + rec(level + 1, !hasStock, maxTransaction - 1, prices);
+        int dontSellTodayMoveNextDay = rec(level + 1, hasStock, maxTransaction, prices);
+        result = max(sellHasStock,dontSellTodayMoveNextDay);
     }
     else{
-        int doNothing = solve(index + 1, holdState, txnLeft, prices, dp);
-        int sell = solve(index + 1, !holdState, txnLeft - 1, prices, dp) + prices[index];
-        result = max(doNothing, sell);
+        // I need to buy a new stock
+        if(maxTransaction > 0){
+            // then only we can decide to buy a new stock or start a new transaction
+            int buyStockToday = -prices[level] + rec(level + 1, !hasStock, maxTransaction, prices);
+            int dontBuyTodayMoveNextDay = rec(level + 1, hasStock, maxTransaction, prices);
+            result = max(buyStockToday, dontBuyTodayMoveNextDay);
+        }
+
     }
-    dp[index][holdState][txnLeft] = result;
-
-    // save and return
-    return  dp[index][holdState][txnLeft];
 
 
-
-
+    // save and return 
+    return dp[level][hasStock][maxTransaction] = result;
 }
     int maxProfit(vector<int>& prices) {
-        int n = prices.size();
-        vector<vector<vector<int>>>dp(n,vector<vector<int>>(2,vector<int>(3,-1)));
-        return solve(0,0,2,prices,dp);
-
-
+        memset(dp, -1, sizeof(dp));
+        return rec(0, false, 2, prices);
         
     }
 };
