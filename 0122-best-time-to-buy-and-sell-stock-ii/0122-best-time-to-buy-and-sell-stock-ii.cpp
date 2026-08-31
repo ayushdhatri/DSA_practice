@@ -1,37 +1,38 @@
 class Solution {
 public:
-int solve(int index, int holdState, vector<int>&prices, vector<vector<int>> &dp){
-    // pruning case
+int dp[30010][2];
+int rec(int level, bool hasStock, vector<int>&prices){
+    // pruning
 
     // base case
-    if(index >=prices.size())return 0;
+    if(level >= prices.size())return 0;
 
-    // cache
-    if(dp[index][holdState] != -1)return dp[index][holdState];
-
+    // Cache
+    if(dp[level][hasStock] != -1)return dp[level][hasStock];
 
     // transition
     int result = 0;
-    if(holdState == 0){
-        int doNothing = solve(index + 1, holdState,prices,dp);
-        int buyStock = solve(index + 1, !holdState,prices,dp) - prices[index];
-        result = max(doNothing, buyStock);
+    if(hasStock){
+        // you already have one stock in your hand
+        int sellHasStock = prices[level] + rec(level + 1, !hasStock, prices);//I sold my stock and move to next day
+        int buyNewStockAfterSellingOldOne = rec(level + 1, hasStock, prices);// since I bought today 
+        result = max(sellHasStock, buyNewStockAfterSellingOldOne);
+
     }
     else{
-        int doNothing = solve(index + 1, holdState,prices,dp);
-        int sellStock = prices[index] + solve(index + 1, !holdState, prices, dp);
-        result = max(doNothing, sellStock);
-    }
-    dp[index][holdState] = result;
+        // if you dont have stock then you buy today
+        int buyStock = -prices[level] + rec(level + 1, true, prices);
+        int dontDoAnything = rec(level + 1, hasStock, prices);
+        result = max(buyStock, dontDoAnything);
 
-    
+    }
     // save and return
-    return result;
+    return dp[level][hasStock] = result;
 }
     int maxProfit(vector<int>& prices) {
-        int n = prices.size();
-        vector<vector<int>>dp(n, vector<int>(2, -1));
-        return solve(0,0,prices,dp);
+        // this question is of form 1
+        memset(dp, -1, sizeof(dp));
+        return rec(0,false, prices);
         
     }
 };
