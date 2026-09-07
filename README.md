@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0978-longest-turbulent-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0978-longest-turbulent-subarray/) | Medium |
 | [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
 | [1032-stream-of-characters](https://github.com/ayushdhatri/DSA_practice/tree/main/1032-stream-of-characters/) | Hard |
+| [1035-uncrossed-lines](https://github.com/ayushdhatri/DSA_practice/tree/main/1035-uncrossed-lines/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
@@ -283,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ayushdhatri/DSA_practice/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0740-delete-and-earn](https://github.com/ayushdhatri/DSA_practice/tree/main/0740-delete-and-earn/) | Medium |
 | [0978-longest-turbulent-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0978-longest-turbulent-subarray/) | Medium |
+| [1035-uncrossed-lines](https://github.com/ayushdhatri/DSA_practice/tree/main/1035-uncrossed-lines/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/ayushdhatri/DSA_practice/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1340-jump-game-v](https://github.com/ayushdhatri/DSA_practice/tree/main/1340-jump-game-v/) | Hard |
@@ -351,4 +353,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0010-regular-expression-matching](https://github.com/ayushdhatri/DSA_practice/tree/main/0010-regular-expression-matching/) | Hard |
+## Longest Common Subsequence
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1035-uncrossed-lines](https://github.com/ayushdhatri/DSA_practice/tree/main/1035-uncrossed-lines/) | Medium |
 <!---LeetCode Topics End-->
