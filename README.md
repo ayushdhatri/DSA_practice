@@ -101,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0010-regular-expression-matching](https://github.com/ayushdhatri/DSA_practice/tree/main/0010-regular-expression-matching/) | Hard |
+| [0115-distinct-subsequences](https://github.com/ayushdhatri/DSA_practice/tree/main/0115-distinct-subsequences/) | Hard |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ayushdhatri/DSA_practice/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0336-palindrome-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/0336-palindrome-pairs/) | Hard |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
@@ -272,6 +273,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0010-regular-expression-matching](https://github.com/ayushdhatri/DSA_practice/tree/main/0010-regular-expression-matching/) | Hard |
 | [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
+| [0115-distinct-subsequences](https://github.com/ayushdhatri/DSA_practice/tree/main/0115-distinct-subsequences/) | Hard |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ayushdhatri/DSA_practice/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0152-maximum-product-subarray/) | Medium |
