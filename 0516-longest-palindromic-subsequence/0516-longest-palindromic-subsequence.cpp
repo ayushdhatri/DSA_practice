@@ -1,34 +1,35 @@
 class Solution {
 public:
-int lcs(int index1, int index2, string &s, string &t, vector<vector<int>>&dp){
-    // pruining case
-
+int dp[1010][1010];
+int rec(int l, int r, string &s){
+    // pruning
+    if(l > r)return 0;
 
     // base case
-    if(index1 >= s.size() || index2 >= t.size())return 0;
+    if(l == r){
+        return 1;
+    }
+
     // cache
-    if(dp[index1][index2] != -1)return dp[index1][index2];
+    if(dp[l][r] != -1)return dp[l][r];
 
     // transition
-    int ans = 0;
-    if(s[index1] == t[index2]){
-        ans = 1 + lcs(index1 +1, index2 + 1, s, t, dp);
+    int ans = 1;
+    if(s[l] == s[r]){
+        ans = 2 + rec(l + 1, r-1, s);
     }
     else{
-        ans = max(ans,lcs(index1 + 1,index2, s, t, dp));
-        ans = max(ans, lcs(index1, index2 + 1, s, t, dp));
+        ans = max(rec(l+1, r, s), rec(l, r-1, s));
     }
 
     // save and return
-    return dp[index1][index2] = ans;
+    return dp[l][r] = ans;
 }
     int longestPalindromeSubseq(string s) {
-       string t = s;
-       reverse(t.begin(), t.end());
-       int n = s.size();
-       vector<vector<int>>dp(n, vector<int>(n, -1));
-       return lcs(0,0,s, t, dp);
-
+        memset(dp, -1,sizeof(dp));
+        int n = s.size();
+        return rec(0, n-1,s);
+        
         
     }
 };
