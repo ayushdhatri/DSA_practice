@@ -1,41 +1,35 @@
 class Solution {
 public:
-     int lcs(string s, string t, int i, int j, vector<vector<int>>&dp)
-     {
-         if(i==0||j==0)
-             return 0;
-         if(dp[i][j]!=-1)
-             return dp[i][j];
-         if(s[i]==t[j])
-             return 1 + lcs(s, t, i-1, j-1,dp);
-         return dp[i][j] = max(lcs(s,t,i-1,j,dp), lcs(s,t,i,j-1,dp));
-    }
-    int minInsertions(string s) {
-        int n = s.size();
-        string t = s;
-        reverse(t.begin(), t.end());
-        vector<vector<int>>dp(n+1, vector<int>(n+1, 0));
-        
-        //int lcp = lcs(s,t,n,n,dp);
-        for(int i=1;i<=n;i++)
-        {
-            for(int j =1;j<=n;j++)
-            {
-                if(s[i-1]==t[j-1])
-                {
-                    dp[i][j]=1+dp[i-1][j-1];
-                }
-                else
-                {
-                    dp[i][j]=max(dp[i-1][j],dp[i][j-1]);
+int dp[510][510];
+int rec(int startIndex, int endIndex, string &s){
+    // pruning
 
-                }
-            }
-        }
-        
-        return n-dp[n][n];
-        
-        
-        
+    //base case
+    if(startIndex >= endIndex){
+        return 0;
+    }
+
+    // cache
+    if(dp[startIndex][endIndex] != -1 )return dp[startIndex][endIndex];
+
+    // transition
+    int minWays = INT_MAX;
+    int way1 = minWays, way2 = minWays, way3 = minWays;
+    if(s[startIndex] == s[endIndex]){
+        way1 = rec(startIndex +1, endIndex-1, s);
+    }
+    else{
+        way2 = 1 + rec(startIndex, endIndex-1, s);
+        way3 = 1 + rec(startIndex + 1, endIndex, s);
+    }
+
+    // save and return
+    return dp[startIndex][endIndex] = min({way1, way2, way3});
+}
+    int minInsertions(string s) {
+        memset(dp, -1, sizeof(dp));
+        int n = s.size();
+        return rec(0, n-1, s);
+
     }
 };
