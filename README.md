@@ -112,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1032-stream-of-characters](https://github.com/ayushdhatri/DSA_practice/tree/main/1032-stream-of-characters/) | Hard |
 | [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ayushdhatri/DSA_practice/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1745-palindrome-partitioning-iv](https://github.com/ayushdhatri/DSA_practice/tree/main/1745-palindrome-partitioning-iv/) | Hard |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
@@ -296,6 +297,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1035-uncrossed-lines](https://github.com/ayushdhatri/DSA_practice/tree/main/1035-uncrossed-lines/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/ayushdhatri/DSA_practice/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ayushdhatri/DSA_practice/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1340-jump-game-v](https://github.com/ayushdhatri/DSA_practice/tree/main/1340-jump-game-v/) | Hard |
 | [1567-maximum-length-of-subarray-with-positive-product](https://github.com/ayushdhatri/DSA_practice/tree/main/1567-maximum-length-of-subarray-with-positive-product/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
