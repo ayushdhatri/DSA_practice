@@ -105,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/ayushdhatri/DSA_practice/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0336-palindrome-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/0336-palindrome-pairs/) | Hard |
 | [0516-longest-palindromic-subsequence](https://github.com/ayushdhatri/DSA_practice/tree/main/0516-longest-palindromic-subsequence/) | Medium |
+| [0647-palindromic-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/0647-palindromic-substrings/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0745-prefix-and-suffix-search](https://github.com/ayushdhatri/DSA_practice/tree/main/0745-prefix-and-suffix-search/) | Hard |
 | [1032-stream-of-characters](https://github.com/ayushdhatri/DSA_practice/tree/main/1032-stream-of-characters/) | Hard |
@@ -220,6 +221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [0647-palindromic-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/0647-palindromic-substrings/) | Medium |
 | [0881-boats-to-save-people](https://github.com/ayushdhatri/DSA_practice/tree/main/0881-boats-to-save-people/) | Medium |
 | [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
@@ -284,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0494-target-sum/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/ayushdhatri/DSA_practice/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0518-coin-change-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0518-coin-change-ii/) | Medium |
+| [0647-palindromic-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/0647-palindromic-substrings/) | Medium |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/ayushdhatri/DSA_practice/tree/main/0689-maximum-sum-of-3-non-overlapping-subarrays/) | Hard |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ayushdhatri/DSA_practice/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0740-delete-and-earn](https://github.com/ayushdhatri/DSA_practice/tree/main/0740-delete-and-earn/) | Medium |
