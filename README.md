@@ -285,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0213-house-robber-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0213-house-robber-ii/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/ayushdhatri/DSA_practice/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0375-guess-number-higher-or-lower-ii/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/ayushdhatri/DSA_practice/tree/main/0494-target-sum/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/ayushdhatri/DSA_practice/tree/main/0516-longest-palindromic-subsequence/) | Medium |
@@ -332,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0375-guess-number-higher-or-lower-ii/) | Medium |
 | [0877-stone-game](https://github.com/ayushdhatri/DSA_practice/tree/main/0877-stone-game/) | Medium |
 | [3850-count-sequences-to-k](https://github.com/ayushdhatri/DSA_practice/tree/main/3850-count-sequences-to-k/) | Hard |
 ## Memoization
@@ -378,10 +380,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Minimax
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0375-guess-number-higher-or-lower-ii/) | Medium |
 | [0877-stone-game](https://github.com/ayushdhatri/DSA_practice/tree/main/0877-stone-game/) | Medium |
 ## Game Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0375-guess-number-higher-or-lower-ii/) | Medium |
 | [0877-stone-game](https://github.com/ayushdhatri/DSA_practice/tree/main/0877-stone-game/) | Medium |
 ## Zero-Sum Game
 | Problem Name | Difficulty |
