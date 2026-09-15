@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
 | [1032-stream-of-characters](https://github.com/ayushdhatri/DSA_practice/tree/main/1032-stream-of-characters/) | Hard |
 | [1035-uncrossed-lines](https://github.com/ayushdhatri/DSA_practice/tree/main/1035-uncrossed-lines/) | Medium |
+| [1039-minimum-score-triangulation-of-polygon](https://github.com/ayushdhatri/DSA_practice/tree/main/1039-minimum-score-triangulation-of-polygon/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
@@ -295,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0877-stone-game](https://github.com/ayushdhatri/DSA_practice/tree/main/0877-stone-game/) | Medium |
 | [0978-longest-turbulent-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0978-longest-turbulent-subarray/) | Medium |
 | [1035-uncrossed-lines](https://github.com/ayushdhatri/DSA_practice/tree/main/1035-uncrossed-lines/) | Medium |
+| [1039-minimum-score-triangulation-of-polygon](https://github.com/ayushdhatri/DSA_practice/tree/main/1039-minimum-score-triangulation-of-polygon/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/ayushdhatri/DSA_practice/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ayushdhatri/DSA_practice/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
@@ -385,4 +387,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0877-stone-game](https://github.com/ayushdhatri/DSA_practice/tree/main/0877-stone-game/) | Medium |
+## Triangulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1039-minimum-score-triangulation-of-polygon](https://github.com/ayushdhatri/DSA_practice/tree/main/1039-minimum-score-triangulation-of-polygon/) | Medium |
+## Polygons
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1039-minimum-score-triangulation-of-polygon](https://github.com/ayushdhatri/DSA_practice/tree/main/1039-minimum-score-triangulation-of-polygon/) | Medium |
 <!---LeetCode Topics End-->
