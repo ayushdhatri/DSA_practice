@@ -110,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0336-palindrome-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/0336-palindrome-pairs/) | Hard |
 | [0516-longest-palindromic-subsequence](https://github.com/ayushdhatri/DSA_practice/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0647-palindromic-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/0647-palindromic-substrings/) | Medium |
+| [0664-strange-printer](https://github.com/ayushdhatri/DSA_practice/tree/main/0664-strange-printer/) | Hard |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0745-prefix-and-suffix-search](https://github.com/ayushdhatri/DSA_practice/tree/main/0745-prefix-and-suffix-search/) | Hard |
 | [1032-stream-of-characters](https://github.com/ayushdhatri/DSA_practice/tree/main/1032-stream-of-characters/) | Hard |
@@ -295,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0516-longest-palindromic-subsequence](https://github.com/ayushdhatri/DSA_practice/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0518-coin-change-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0518-coin-change-ii/) | Medium |
 | [0647-palindromic-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/0647-palindromic-substrings/) | Medium |
+| [0664-strange-printer](https://github.com/ayushdhatri/DSA_practice/tree/main/0664-strange-printer/) | Hard |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/ayushdhatri/DSA_practice/tree/main/0689-maximum-sum-of-3-non-overlapping-subarrays/) | Hard |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ayushdhatri/DSA_practice/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0740-delete-and-earn](https://github.com/ayushdhatri/DSA_practice/tree/main/0740-delete-and-earn/) | Medium |
