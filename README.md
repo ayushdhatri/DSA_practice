@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0010-regular-expression-matching](https://github.com/ayushdhatri/DSA_practice/tree/main/0010-regular-expression-matching/) | Hard |
 | [0087-scramble-string](https://github.com/ayushdhatri/DSA_practice/tree/main/0087-scramble-string/) | Hard |
 | [0115-distinct-subsequences](https://github.com/ayushdhatri/DSA_practice/tree/main/0115-distinct-subsequences/) | Hard |
+| [0132-palindrome-partitioning-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0132-palindrome-partitioning-ii/) | Hard |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ayushdhatri/DSA_practice/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0336-palindrome-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/0336-palindrome-pairs/) | Hard |
 | [0516-longest-palindromic-subsequence](https://github.com/ayushdhatri/DSA_practice/tree/main/0516-longest-palindromic-subsequence/) | Medium |
@@ -286,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0115-distinct-subsequences](https://github.com/ayushdhatri/DSA_practice/tree/main/0115-distinct-subsequences/) | Hard |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ayushdhatri/DSA_practice/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
+| [0132-palindrome-partitioning-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0132-palindrome-partitioning-ii/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0213-house-robber-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0213-house-robber-ii/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/ayushdhatri/DSA_practice/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
