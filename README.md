@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/ayushdhatri/DSA_practice/tree/main/0684-redundant-connection/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0994-rotting-oranges](https://github.com/ayushdhatri/DSA_practice/tree/main/0994-rotting-oranges/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/ayushdhatri/DSA_practice/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/ayushdhatri/DSA_practice/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
@@ -70,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/ayushdhatri/DSA_practice/tree/main/1039-minimum-score-triangulation-of-polygon/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
+| [1091-shortest-path-in-binary-matrix](https://github.com/ayushdhatri/DSA_practice/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/ayushdhatri/DSA_practice/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/ayushdhatri/DSA_practice/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
@@ -158,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0304-range-sum-query-2d-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0994-rotting-oranges](https://github.com/ayushdhatri/DSA_practice/tree/main/0994-rotting-oranges/) | Medium |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
+| [1091-shortest-path-in-binary-matrix](https://github.com/ayushdhatri/DSA_practice/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/ayushdhatri/DSA_practice/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/2577-minimum-time-to-visit-a-cell-in-a-grid/) | Hard |
