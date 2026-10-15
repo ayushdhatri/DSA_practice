@@ -1,36 +1,46 @@
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        int m = prerequisites.size();
-        vector<vector<int>>graph(numCourses);
-        for(int i = 0;i<m;i++){
+        // here we can see that there is directed graph
+        // we are not sure at this point, if cycle can exist or not
+        // if it exist, 
+        vector<vector<int>>g(numCourses+1);
+        vector<int>indegree(numCourses+1, 0);
+        vector<int>topo;
+        for(int i = 0;i < prerequisites.size();i++){
             int u = prerequisites[i][0];
             int v = prerequisites[i][1];
-            graph[v].push_back(u);
-        }
-        vector<int>indegree(numCourses, 0);
-        for(int i = 0;i<numCourses;i++){
-            for(int j = 0;j<graph[i].size();j++){
-                indegree[graph[i][j]]+=1;
-            }
+            g[v].push_back(u);
+            indegree[u]+=1;
         }
         queue<int>q;
-        vector<int>topo;
+        // find indegree
         for(int i = 0;i<numCourses;i++){
             if(indegree[i] == 0){
                 q.push(i);
             }
         }
-        while(q.size()!= 0){
-            int node = q.front();
+        while(q.size() != 0){
+            int frontNode = q.front();
+            topo.push_back(frontNode);
             q.pop();
-            topo.push_back(node);
-            for(auto x: graph[node]){
-                indegree[x]--;
-                if(indegree[x] == 0)q.push(x);
+            for(auto adj : g[frontNode]){
+                indegree[adj]--;
+                if(indegree[adj] == 0){
+                    q.push(adj);
+                }
             }
+
         }
-        if(topo.size() == numCourses)return topo;
+        cout<<topo.size();
+        if(topo.size() == (numCourses)){
+            return topo;
+        }
         return {};
+       
+
+
+
+        
     }
 };
