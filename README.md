@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0684-redundant-connection](https://github.com/ayushdhatri/DSA_practice/tree/main/0684-redundant-connection/) | Medium |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/ayushdhatri/DSA_practice/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/2577-minimum-time-to-visit-a-cell-in-a-grid/) | Hard |
 ## Array
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdhatri/DSA_practice/tree/main/2090-k-radius-subarray-averages/) | Medium |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/ayushdhatri/DSA_practice/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
@@ -106,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/ayushdhatri/DSA_practice/tree/main/1218-longest-arithmetic-subsequence-of-given-difference/) | Medium |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/ayushdhatri/DSA_practice/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 | [2744-find-maximum-number-of-string-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/2744-find-maximum-number-of-string-pairs/) | Easy |
 ## String
@@ -128,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ayushdhatri/DSA_practice/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1745-palindrome-partitioning-iv](https://github.com/ayushdhatri/DSA_practice/tree/main/1745-palindrome-partitioning-iv/) | Hard |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/ayushdhatri/DSA_practice/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayushdhatri/DSA_practice/tree/main/2131-longest-palindrome-by-concatenating-two-letter-words/) | Medium |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [2744-find-maximum-number-of-string-pairs](https://github.com/ayushdhatri/DSA_practice/tree/main/2744-find-maximum-number-of-string-pairs/) | Easy |
@@ -421,4 +425,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/ayushdhatri/DSA_practice/tree/main/1039-minimum-score-triangulation-of-polygon/) | Medium |
+## Topological Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/ayushdhatri/DSA_practice/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
+## Directed Acyclic Graph
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/ayushdhatri/DSA_practice/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 <!---LeetCode Topics End-->
