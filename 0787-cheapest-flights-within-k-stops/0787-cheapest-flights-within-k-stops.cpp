@@ -1,54 +1,47 @@
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-
-        int cheapFlightPrice = INT_MAX;
-        vector<pair<int, int>>adj[n];
-        int m = flights.size();
-        for(int i= 0;i<m;i++){
-            int u = flights[i][0];
-            int v = flights[i][1];
-            int price = flights[i][2];
-            adj[u].push_back({v, price});
+        vector<vector<pair<int, int>>>adj(n);
+        k+=1;
+        for(int i = 0;i<flights.size();i++){
+            int from, to, price;
+            from = flights[i][0];
+            to = flights[i][1];
+            price = flights[i][2];
+            adj[from].push_back({to, price});
         }
-        vector<int>price(n, 1e9);
-        priority_queue<pair<int, pair< int, int>>, 
-        vector<pair< int, pair< int, int>>>, 
-        greater<pair< int, pair< int, int>>>
+        
+        priority_queue<pair<int, pair<int, int>>,
+        vector<pair<int, pair<int, int>>>,
+        greater<pair<int, pair<int, int>>>
         >pq;
-        price[src]=0;
+        vector<vector<int>>price(n, vector<int>(k+1, INT_MAX));
+        price[src][0] = 0;
         pq.push({0,{src, 0}});
-        while(pq.size()!=0){
-            int currStops = pq.top().first;
-            int currNode = pq.top().second.first;
-            int currPrice = pq.top().second.second;
+
+        while(pq.size() != 0){
+            int topNodePrice = pq.top().first;
+            int topNode = pq.top().second.first;
+            int stopsSoFar = pq.top().second.second;
             pq.pop();
-            for(auto x: adj[currNode]){
+            if(topNode == dst){
+                return topNodePrice;
+            }
+            if(price[topNode][stopsSoFar] < topNodePrice)continue;
+
+            for(auto x: adj[topNode]){
                 int adjNode = x.first;
-                int adjPrice = x.second;
-                if(currStops+1<=(k+1)){
-                    if(currPrice+adjPrice<price[adjNode]){
-                        price[adjNode]= currPrice + adjPrice;
-                        pq.push({currStops+1,{adjNode, price[adjNode]}});
-                    }
+                int adjNodePrice = x.second;
+                if(stopsSoFar + 1 <= k && price[adjNode][stopsSoFar+1] > (topNodePrice + adjNodePrice)){
+                    price[adjNode][stopsSoFar + 1] = topNodePrice + adjNodePrice;
+                    pq.push({price[adjNode][stopsSoFar + 1], {adjNode, stopsSoFar + 1}});
+                    
                 }
             }
-            
         }
-        if(price[dst]==1e9)return -1;
-        return price[dst];
         return -1;
-    
 
 
 
-
-
-
-
-
-
-        return cheapFlightPrice;
-        
     }
 };
