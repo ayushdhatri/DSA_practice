@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1091-shortest-path-in-binary-matrix](https://github.com/ayushdhatri/DSA_practice/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/ayushdhatri/DSA_practice/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/2577-minimum-time-to-visit-a-cell-in-a-grid/) | Hard |
@@ -34,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/ayushdhatri/DSA_practice/tree/main/0684-redundant-connection/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -89,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1480-running-sum-of-1d-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
 | [1567-maximum-length-of-subarray-with-positive-product](https://github.com/ayushdhatri/DSA_practice/tree/main/1567-maximum-length-of-subarray-with-positive-product/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdhatri/DSA_practice/tree/main/2090-k-radius-subarray-averages/) | Medium |
@@ -166,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/2577-minimum-time-to-visit-a-cell-in-a-grid/) | Hard |
 ## Matrix
@@ -177,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ayushdhatri/DSA_practice/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/ayushdhatri/DSA_practice/tree/main/1162-as-far-from-land-as-possible/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/2577-minimum-time-to-visit-a-cell-in-a-grid/) | Hard |
 ## Shortest Path
@@ -275,6 +281,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [1044-longest-duplicate-substring](https://github.com/ayushdhatri/DSA_practice/tree/main/1044-longest-duplicate-substring/) | Hard |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/ayushdhatri/DSA_practice/tree/main/2302-count-subarrays-with-score-less-than-k/) | Hard |
 ## Greedy
@@ -447,4 +454,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 <!---LeetCode Topics End-->
