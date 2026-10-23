@@ -1,49 +1,44 @@
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
-        vector<pair<int, int >>adj[n+1];
-        int m = times.size();
-        //created adj list
-        for(int i = 0;i<m;i++){
-            int u = times[i][0];
-            int v = times[i][1];
-            int signalTime = times[i][2];
-            adj[u].push_back({v, signalTime});
+        // we will start propogating signals from all source node K 
+        // try to reach all the nodes in minimum time
+        // if minimum time to reach is INF means the node is not reachabel hence we need to rutrun -1;
+        vector<vector<pair<int, int>>>adj(n+1);
+        for(int i= 0;i<times.size();i++){
+            int u, v, w;
+            u = times[i][0];
+            v = times[i][1];
+            w = times[i][2];
+            adj[u].push_back({v, w});
         }
-        //Declare a priority queue
-        priority_queue<pair<int, int>,
+        priority_queue<pair<int, int>, 
         vector<pair<int, int>>,
-        greater<pair<int, int>>>pq;
-        // push the node k into our pq
-        pq.push({0,k});
-        // declare the singalTime array 
-        vector<int>signalTime(n+1, 1e9);
-        signalTime[k]=0;
-
+        greater<pair<int, int>>
+        >pq;
+        vector<int>dist(n+1, INT_MAX);
+        dist[k] = 0;
+        pq.push({0, k});
         while(pq.size()!=0){
-            int tm = pq.top().first;
-            int node = pq.top().second;
+            int topNode = pq.top().second;
+            int topNodeDist = pq.top().first;
             pq.pop();
-            for(auto x:adj[node]){
-                 int adjNode = x.first;
-                int adjNodeTime = x.second;
-               if(tm+adjNodeTime<signalTime[adjNode]){
-                    signalTime[adjNode]=tm + adjNodeTime;
-                    pq.push({signalTime[adjNode],adjNode});
+            if(dist[topNode] > topNodeDist)continue;
+            for(auto x: adj[topNode]){
+                int adjNode = x.first;
+                int adjNodeDist = x.second;
+                if(dist[adjNode] > (topNodeDist + adjNodeDist)){
+                    dist[adjNode] = topNodeDist + adjNodeDist;
+                    pq.push({dist[adjNode], adjNode});
                 }
-
             }
         }
-        int ans =0;;
-
+        int ans = INT_MIN;
         for(int i = 1;i<=n;i++){
-            if(signalTime[i]==1e9)return -1;
-            ans = max(ans, signalTime[i]);
+            if(dist[i] == INT_MAX)return -1;
+            ans = max(ans, dist[i]);
         }
-        
         return ans;
-
-
         
     }
 };
