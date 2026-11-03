@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ayushdhatri/DSA_practice/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0827-making-a-large-island](https://github.com/ayushdhatri/DSA_practice/tree/main/0827-making-a-large-island/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
@@ -24,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ayushdhatri/DSA_practice/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0827-making-a-large-island](https://github.com/ayushdhatri/DSA_practice/tree/main/0827-making-a-large-island/) | Hard |
 | [0994-rotting-oranges](https://github.com/ayushdhatri/DSA_practice/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ayushdhatri/DSA_practice/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/ayushdhatri/DSA_practice/tree/main/1162-as-far-from-land-as-possible/) | Medium |
@@ -38,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0684-redundant-connection](https://github.com/ayushdhatri/DSA_practice/tree/main/0684-redundant-connection/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
+| [0827-making-a-large-island](https://github.com/ayushdhatri/DSA_practice/tree/main/0827-making-a-large-island/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Graph Theory
@@ -79,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0724-find-pivot-index](https://github.com/ayushdhatri/DSA_practice/tree/main/0724-find-pivot-index/) | Easy |
 | [0740-delete-and-earn](https://github.com/ayushdhatri/DSA_practice/tree/main/0740-delete-and-earn/) | Medium |
 | [0745-prefix-and-suffix-search](https://github.com/ayushdhatri/DSA_practice/tree/main/0745-prefix-and-suffix-search/) | Hard |
+| [0827-making-a-large-island](https://github.com/ayushdhatri/DSA_practice/tree/main/0827-making-a-large-island/) | Hard |
 | [0877-stone-game](https://github.com/ayushdhatri/DSA_practice/tree/main/0877-stone-game/) | Medium |
 | [0881-boats-to-save-people](https://github.com/ayushdhatri/DSA_practice/tree/main/0881-boats-to-save-people/) | Medium |
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
@@ -187,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0304-range-sum-query-2d-immutable](https://github.com/ayushdhatri/DSA_practice/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/ayushdhatri/DSA_practice/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
+| [0827-making-a-large-island](https://github.com/ayushdhatri/DSA_practice/tree/main/0827-making-a-large-island/) | Hard |
 | [0994-rotting-oranges](https://github.com/ayushdhatri/DSA_practice/tree/main/0994-rotting-oranges/) | Medium |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ayushdhatri/DSA_practice/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
