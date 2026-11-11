@@ -1,54 +1,66 @@
 class Solution {
 public:
 struct DSU{
-    int n, comp, *parent, *rank;
-    DSU(int x){
-        n = x;
-        comp = n;
-        parent = new int[n+1];
-        rank = new int[n+1];
-        for(int i = 1;i<=n;i++){
-            parent[i] = i;
+    int n, *par, *rank;
+    DSU(){}
+    DSU(int totalNodes){
+        this->n = totalNodes;
+        this->par = new int[n+1];
+        this->rank = new int[n+1];
+        for(int i = 0;i<=n;i++){
+            par[i] = i;
             rank[i] = 1;
         }
     }
-    int find(int x){
-        if(x == parent[x])return x;
-        return parent[x] = find(parent[x]);
+
+    int find(int node){
+        if(par[node] == node)return node;
+        return par[node] = find(par[node]);//we are doing path compression
+
     }
-    bool merge(int x, int y){
-        int xroot = find(x), yroot = find(y);
-        if(xroot == yroot){
-            return false;
-        }
-        if(rank[xroot] <= rank[yroot]){
-            rank[yroot]+=rank[xroot];
-            parent[xroot] = yroot;
+
+    void merge(int nodeX, int nodeY){
+        int rootX = find(nodeX);
+        int rootY = find(nodeY);
+        if(rootX == rootY)return;
+        if(rank[rootX] >= rank[rootY]){// here we do rank compression
+            rank[rootX] += rank[rootY];
+            par[rootY] = rootX;
         }
         else{
-            rank[xroot]+=rank[yroot];
-            parent[yroot] = xroot; 
+            rank[rootY] += rank[rootX];
+            par[rootX] = rootY;
         }
-        return true;
     }
+
+
 };
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        int n=1;
-        for(auto x: edges){
-            for(int y : x){
-                n = max(n,y);
-            }
-        }
+        // if anything is tree there is n-1 edges.
+        // initially it was tree so in a tree we know that there are total n-1 edges
+        // now they addded one edge and we are not aware which edge was added.
+        // but lets say we start with no edges initially 
+        int lastEdgeIndex = -1;// intially we dont know 
+        int m = edges.size();
+        int n = m;
         DSU dsu(n);
-        int red_conn_idx = 0;
-        for(int index = 0;index<edges.size();index++){
-            int u = edges[index][0];
-            int v = edges[index][1];
-            if(!dsu.merge(u,v)){
-                red_conn_idx = index;
+        for(int i = 0;i<m;i++){
+            int u = edges[i][0];
+            int v = edges[i][1];
+            int rootU = dsu.find(u);
+            int rootV = dsu.find(v);
+            if(rootU == rootV)// belong to same component
+            {
+                lastEdgeIndex = i;
             }
-        }
-        return edges[red_conn_idx];
+            else{
+                dsu.merge(u,v);
+            }
         
+        }
+        return edges[lastEdgeIndex];
+
+
+
     }
 };
