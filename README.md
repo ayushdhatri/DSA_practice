@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0827-making-a-large-island](https://github.com/ayushdhatri/DSA_practice/tree/main/0827-making-a-large-island/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -32,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/ayushdhatri/DSA_practice/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/2577-minimum-time-to-visit-a-cell-in-a-grid/) | Hard |
@@ -43,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0827-making-a-large-island](https://github.com/ayushdhatri/DSA_practice/tree/main/0827-making-a-large-island/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -50,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ayushdhatri/DSA_practice/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
+| [1971-find-if-path-exists-in-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/ayushdhatri/DSA_practice/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/ayushdhatri/DSA_practice/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium |
