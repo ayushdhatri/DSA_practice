@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ayushdhatri/DSA_practice/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/ayushdhatri/DSA_practice/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
+| [0547-number-of-provinces](https://github.com/ayushdhatri/DSA_practice/tree/main/0547-number-of-provinces/) | Medium |
 | [0684-redundant-connection](https://github.com/ayushdhatri/DSA_practice/tree/main/0684-redundant-connection/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
@@ -22,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ayushdhatri/DSA_practice/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/ayushdhatri/DSA_practice/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
+| [0547-number-of-provinces](https://github.com/ayushdhatri/DSA_practice/tree/main/0547-number-of-provinces/) | Medium |
 | [0684-redundant-connection](https://github.com/ayushdhatri/DSA_practice/tree/main/0684-redundant-connection/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
@@ -40,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/ayushdhatri/DSA_practice/tree/main/0547-number-of-provinces/) | Medium |
 | [0684-redundant-connection](https://github.com/ayushdhatri/DSA_practice/tree/main/0684-redundant-connection/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0827-making-a-large-island](https://github.com/ayushdhatri/DSA_practice/tree/main/0827-making-a-large-island/) | Hard |
@@ -49,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/ayushdhatri/DSA_practice/tree/main/0547-number-of-provinces/) | Medium |
 | [0684-redundant-connection](https://github.com/ayushdhatri/DSA_practice/tree/main/0684-redundant-connection/) | Medium |
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ayushdhatri/DSA_practice/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
