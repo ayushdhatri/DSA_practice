@@ -51,7 +51,7 @@ ll findMahhattanDist(int currNode, int nextNode, vector<vector<int>>&points){
         // here lets give points[0] as node 0 and so on...
         vector<pair<int,pair<int, int>>>edgeWeight;
         for(int node = 0;node<points.size();node++){
-            for(int nextNode = 0;nextNode<points.size();nextNode++){
+            for(int nextNode = node+1;nextNode<points.size();nextNode++){
                 if(node != nextNode){
                     ll manHattanDist = findMahhattanDist(node, nextNode, points);
                     edgeWeight.push_back({manHattanDist, {node, nextNode}});
@@ -61,7 +61,7 @@ ll findMahhattanDist(int currNode, int nextNode, vector<vector<int>>&points){
         // for(int i = 0;i<edgeWeight.size();i++){
         //     cout<<edgeWeight[i].first<<" "<<edgeWeight[i].second.first<<" "<<edgeWeight[i].second.second<<endl;
         // }
-        sort(edgeWeight.begin(), edgeWeight.end());
+        sort(edgeWeight.begin(), edgeWeight.end());// Tc : )(2 * N ^ 2 log(N)) + inverseAuckMan(N) && SC : O(N^2)
         // start DSU
         int n = points.size();
         DSU dsu(n);
