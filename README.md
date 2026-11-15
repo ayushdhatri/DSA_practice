@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ayushdhatri/DSA_practice/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/ayushdhatri/DSA_practice/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [1697-checking-existence-of-edge-length-limited-paths](https://github.com/ayushdhatri/DSA_practice/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -63,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ayushdhatri/DSA_practice/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ayushdhatri/DSA_practice/tree/main/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard |
 | [1584-min-cost-to-connect-all-points](https://github.com/ayushdhatri/DSA_practice/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
+| [1697-checking-existence-of-edge-length-limited-paths](https://github.com/ayushdhatri/DSA_practice/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdhatri/DSA_practice/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/ayushdhatri/DSA_practice/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/ayushdhatri/DSA_practice/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
@@ -120,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1584-min-cost-to-connect-all-points](https://github.com/ayushdhatri/DSA_practice/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/ayushdhatri/DSA_practice/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/ayushdhatri/DSA_practice/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
+| [1697-checking-existence-of-edge-length-limited-paths](https://github.com/ayushdhatri/DSA_practice/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 | [1854-maximum-population-year](https://github.com/ayushdhatri/DSA_practice/tree/main/1854-maximum-population-year/) | Easy |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdhatri/DSA_practice/tree/main/2090-k-radius-subarray-averages/) | Medium |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/ayushdhatri/DSA_practice/tree/main/2115-find-all-possible-recipes-from-given-supplies/) | Medium |
@@ -182,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1340-jump-game-v](https://github.com/ayushdhatri/DSA_practice/tree/main/1340-jump-game-v/) | Hard |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
+| [1697-checking-existence-of-edge-length-limited-paths](https://github.com/ayushdhatri/DSA_practice/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -296,6 +300,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0881-boats-to-save-people](https://github.com/ayushdhatri/DSA_practice/tree/main/0881-boats-to-save-people/) | Medium |
 | [0986-interval-list-intersections](https://github.com/ayushdhatri/DSA_practice/tree/main/0986-interval-list-intersections/) | Medium |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ayushdhatri/DSA_practice/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
+| [1697-checking-existence-of-edge-length-limited-paths](https://github.com/ayushdhatri/DSA_practice/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/ayushdhatri/DSA_practice/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 ## Sweep Line
 | Problem Name | Difficulty |
