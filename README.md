@@ -192,11 +192,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ayushdhatri/DSA_practice/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ayushdhatri/DSA_practice/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -271,6 +273,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
 ## Merge Sort
@@ -526,4 +529,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
 <!---LeetCode Topics End-->
