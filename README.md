@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
 | [0057-insert-interval](https://github.com/ayushdhatri/DSA_practice/tree/main/0057-insert-interval/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayushdhatri/DSA_practice/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ayushdhatri/DSA_practice/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0152-maximum-product-subarray/) | Medium |
@@ -190,10 +191,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ayushdhatri/DSA_practice/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ayushdhatri/DSA_practice/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -267,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/ayushdhatri/DSA_practice/tree/main/0053-maximum-subarray/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/ayushdhatri/DSA_practice/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0912-sort-an-array](https://github.com/ayushdhatri/DSA_practice/tree/main/0912-sort-an-array/) | Medium |
 ## Merge Sort
@@ -518,4 +522,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/ayushdhatri/DSA_practice/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 <!---LeetCode Topics End-->
