@@ -11,46 +11,32 @@
  */
 class Solution {
 public:
-    
-    TreeNode* construct(vector<int>&preorder, vector<int>&inorder, int presi, int preei, int insi, int inei)
-    {
-        if(presi>preei||insi>inei)
-            return NULL;
-        int element = preorder[presi];
-        TreeNode* rootnode = new TreeNode(element);
-        int index = 0;
-        for(index;index<inorder.size();index++)
-        {
-            if(inorder[index]==element)
-                break;
-        }
-        int toteleinleftsubtree = index-insi;
-        int lspresi = presi+1;
-        int lspreei = presi+toteleinleftsubtree;
-        int lsinsi = insi;
-        int lsinei = index-1;
-        int rspresi = lspreei+1;
-        int rspreei = preei;
-        int rsinsi = index+1;
-        int rsinei = inei;
-        TreeNode* leftsubtree = construct(preorder, inorder, lspresi, lspreei, lsinsi, lsinei);
-        TreeNode* rightsubtree = construct(preorder, inorder, rspresi, rspreei, rsinsi, rsinei);
-        rootnode->left = leftsubtree;
-        rootnode->right = rightsubtree;
-        return rootnode;
-            
-        
+// Inorder  -> Left -> Root -> Right
+// Preorder -> Root -> Left -> Right 
+TreeNode* constructTree(int preLow, int preHigh, int inLow, int inHigh, vector<int>&preOrder, vector<int>&inOrder){
+    if(inLow > inHigh){
+        return NULL;
     }
+    TreeNode* root = new TreeNode(preOrder[preLow]);// rootNode
+    int rootIndexInOrder = 0;
+    cout<<"Root value "<<root->val<<endl;
+    for(int i = inLow;i<=inHigh;i++){
+        if(inOrder[i] == root->val){
+            rootIndexInOrder = i;
+            break;
+        }
+    }
+    int LenOfLeftSubTree = rootIndexInOrder - inLow;
+    int LenOfRightSubTree = inHigh - rootIndexInOrder;
+    root->left = constructTree(preLow + 1, preLow + LenOfLeftSubTree - 1, inLow, rootIndexInOrder - 1, preOrder, inOrder);
+    root->right = constructTree(preLow + LenOfLeftSubTree + 1, preHigh, rootIndexInOrder + 1, inHigh, preOrder, inOrder);
+    return root;
+}
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         int n = preorder.size();
-        int m = inorder.size();
-        int presi = 0;
-        int preei = n-1;
-        int insi = 0;
-        int inei = m-1;
-        return construct(preorder, inorder, presi, preei, insi, inei);
-        
-        
+        int preLow = 0, preHigh = n-1, inLow = 0, inHigh = n-1;
+        return constructTree(preLow, preHigh, inLow, inHigh, preorder, inorder);
+
         
     }
 };
