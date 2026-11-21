@@ -35,31 +35,31 @@ In Case of BST:
 void findLCAOfNodePAndQ(TreeNode* root, int valueOfP, int valueOfQ, TreeNode* &p){
 
     int rootValue = root->val;
-    cout<<"Lets decide for rootValue"<<rootValue<<endl;
+    //cout<<"Lets decide for rootValue"<<rootValue<<endl;
     if(valueOfP < rootValue && valueOfQ > rootValue ){
         // both lie on two different subtree hence root will be one ancestor
         p = root;
-        cout<<"Ancestor decided "<<p->val<<" As anestor"<<endl;
+       // cout<<"Ancestor decided "<<p->val<<" As anestor"<<endl;
         return;
     }
     if(valueOfP < rootValue && valueOfQ < rootValue){
         // both lie on leftSubTree
         // so here I need to think if 
         p = root;
-        cout<<"Going Left and mark "<<p->val<<" As anestor"<<endl;
+       // cout<<"Going Left and mark "<<p->val<<" As anestor"<<endl;
         findLCAOfNodePAndQ(root->left, valueOfP, valueOfQ, p);
     }
     else if(valueOfP > rootValue && valueOfQ > rootValue){
         // both lie on rightSubTree
         // mark this node as current ancestor because it is one suhc ansestor
         p = root;
-        cout<<"Going right and mark "<<p->val<<" As anestor"<<endl;
+       // cout<<"Going right and mark "<<p->val<<" As anestor"<<endl;
         findLCAOfNodePAndQ(root->right, valueOfP, valueOfQ, p);
     }
     else if(rootValue == valueOfP || root->val == valueOfQ){
 
         p = root;
-        cout<<"For skew tree :  "<<p->val<<" As anestor"<<endl;
+        //cout<<"For skew tree :  "<<p->val<<" As anestor"<<endl;
         return;
     }
    
