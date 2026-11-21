@@ -73,8 +73,23 @@ void findLCAOfNodePAndQ(TreeNode* root, int valueOfP, int valueOfQ, TreeNode* &p
         if(valueOfP > valueOfQ){
             swap(valueOfP, valueOfQ);
         }
-        findLCAOfNodePAndQ(root, valueOfP, valueOfQ ,LCA);
-        return LCA;
+        //findLCAOfNodePAndQ(root, valueOfP, valueOfQ ,LCA);
+        TreeNode* curr = root;
+        
+        while(curr != NULL){
+            if(valueOfQ < curr->val){
+                // go to left
+                curr = curr->left;
+            }
+            else if(valueOfP > curr->val){
+                curr = curr->right;
+            }
+            else{
+                return curr;
+            }
+
+        }
+        return NULL;
 
         
     }
