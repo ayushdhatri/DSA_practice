@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/ayushdhatri/DSA_practice/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0547-number-of-provinces](https://github.com/ayushdhatri/DSA_practice/tree/main/0547-number-of-provinces/) | Medium |
+| [0617-merge-two-binary-trees](https://github.com/ayushdhatri/DSA_practice/tree/main/0617-merge-two-binary-trees/) | Easy |
 | [0684-redundant-connection](https://github.com/ayushdhatri/DSA_practice/tree/main/0684-redundant-connection/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
@@ -29,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/ayushdhatri/DSA_practice/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/ayushdhatri/DSA_practice/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0547-number-of-provinces](https://github.com/ayushdhatri/DSA_practice/tree/main/0547-number-of-provinces/) | Medium |
+| [0617-merge-two-binary-trees](https://github.com/ayushdhatri/DSA_practice/tree/main/0617-merge-two-binary-trees/) | Easy |
 | [0684-redundant-connection](https://github.com/ayushdhatri/DSA_practice/tree/main/0684-redundant-connection/) | Medium |
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
@@ -209,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ayushdhatri/DSA_practice/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/ayushdhatri/DSA_practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
+| [0617-merge-two-binary-trees](https://github.com/ayushdhatri/DSA_practice/tree/main/0617-merge-two-binary-trees/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -221,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ayushdhatri/DSA_practice/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/ayushdhatri/DSA_practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
+| [0617-merge-two-binary-trees](https://github.com/ayushdhatri/DSA_practice/tree/main/0617-merge-two-binary-trees/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
