@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ayushdhatri/DSA_practice/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0827-making-a-large-island](https://github.com/ayushdhatri/DSA_practice/tree/main/0827-making-a-large-island/) | Hard |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ayushdhatri/DSA_practice/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/ayushdhatri/DSA_practice/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ayushdhatri/DSA_practice/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0827-making-a-large-island](https://github.com/ayushdhatri/DSA_practice/tree/main/0827-making-a-large-island/) | Hard |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0994-rotting-oranges](https://github.com/ayushdhatri/DSA_practice/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ayushdhatri/DSA_practice/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -156,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/ayushdhatri/DSA_practice/tree/main/0721-accounts-merge/) | Medium |
 | [0740-delete-and-earn](https://github.com/ayushdhatri/DSA_practice/tree/main/0740-delete-and-earn/) | Medium |
 | [0745-prefix-and-suffix-search](https://github.com/ayushdhatri/DSA_practice/tree/main/0745-prefix-and-suffix-search/) | Hard |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/ayushdhatri/DSA_practice/tree/main/1074-number-of-submatrices-that-sum-to-target/) | Hard |
 | [1202-smallest-string-with-swaps](https://github.com/ayushdhatri/DSA_practice/tree/main/1202-smallest-string-with-swaps/) | Medium |
@@ -212,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/ayushdhatri/DSA_practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0617-merge-two-binary-trees](https://github.com/ayushdhatri/DSA_practice/tree/main/0617-merge-two-binary-trees/) | Easy |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -225,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/ayushdhatri/DSA_practice/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0617-merge-two-binary-trees](https://github.com/ayushdhatri/DSA_practice/tree/main/0617-merge-two-binary-trees/) | Easy |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdhatri/DSA_practice/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
